@@ -27,7 +27,7 @@ const Navbar = () => {
                     <LinkWeb to='/'>About Us</LinkWeb>
                 </NavLinkWeb>
                 <NavLinkWeb>
-                    <LinkWebSpecial to='/'>Register</LinkWebSpecial>
+                    <LinkWebSpecial to='/'>Schedule</LinkWebSpecial>
                 </NavLinkWeb>
             </LinksContainer>
             <BurgerContainer>
