@@ -11,10 +11,15 @@ import poker from './assets/poker.svg'
 import storage from './assets/storage.svg'
 import wolf from './assets/wolf.svg'
 
-
+import aman from './assets/aman.jpg'
 
 
 export const Events = [
+    {
+        Name: "Bplan",
+        Desc: "The secret to getting ahead is getting started!",
+        Image: bplan
+    },
     {
         Name: "Wolf of Birla Street",
         Desc: "In line to be the next Jordan Belfort",
@@ -39,11 +44,6 @@ export const Events = [
         Name: "House of Cards",
         Desc: "Case Study in an innovative paradigm",
         Image: houseofcards
-    },
-    {
-        Name: "Bplan",
-        Desc: "The secret to getting ahead is getting started!",
-        Image: bplan
     },
     {
         Name: "Pitch Please",
@@ -76,4 +76,46 @@ export const Events = [
         Image: crypto
     },
 
+]
+
+
+
+
+
+export const Speakers = [
+    {
+        Name: "Aman Srivastava",
+        Desc: "Software Developer, EDC",
+        Image: aman
+    },
+    {
+        Name: "Aman Srivastava",
+        Desc: "Software Developer, EDC",
+        Image: aman
+    },
+    {
+        Name: "Aman Srivastava",
+        Desc: "Software Developer, EDC",
+        Image: aman
+    },
+    {
+        Name: "Aman Srivastava",
+        Desc: "Software Developer, EDC",
+        Image: aman
+    },
+    {
+        Name: "Aman Srivastava",
+        Desc: "Software Developer, EDC",
+        Image: aman
+    },
+    {
+        Name: "Aman Srivastava",
+        Desc: "Software Developer, EDC",
+        Image: aman
+    },
+    {
+        Name: "Aman Srivastava",
+        Desc: "Software Developer, EDC",
+        Image: aman
+    },
 ]

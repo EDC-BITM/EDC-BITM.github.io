@@ -2,7 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import landingIllustration from '../assets/back.webp'
 import EventBox from '../components/EventBox'
-import { Events } from "../data"
+import SpeakerBox from '../components/SpeakerBox'
+import { Events, Speakers } from "../data"
+import { FaFacebookSquare, FaLinkedin } from "react-icons/fa"
+import { RiInstagramLine } from 'react-icons/ri'
+import logo from '../assets/logo.png'
+import edc from '../assets/edc.png'
 
 const LandingPage = () => {
     return (
@@ -15,7 +20,7 @@ const LandingPage = () => {
                     EDC, BIT Mesra is back with its latest edition of east-India's largest <Span>E Summit</Span>.
                 </LandingDescription>
                 <LandingDate>
-                    MARCH 5-14, 2021 • ONLINE
+                    MARCH <span color="white">5-14</span>, 2021 • ONLINE
                 </LandingDate>
                 <LandingButtonContainer>
                     <LandingButton backColor="#fff" fontColor=" #0e0f25">Register</LandingButton>
@@ -45,6 +50,50 @@ const LandingPage = () => {
                     })}
                 </EventsContainer>
             </SectionContainer>
+            <SectionContainer>
+                <Heading>Speakers</Heading>
+                <EventsContainer>
+                    {
+                        Speakers.map((speaker) => {
+                            return (<SpeakerBox data={speaker} />)
+                        })
+                    }
+                </EventsContainer>
+            </SectionContainer>
+            <SectionContainer>
+                <Heading>Schedule</Heading>
+                <Banner>Will be updated soon...</Banner>
+            </SectionContainer>
+            <SectionContainer>
+                <Heading>Contact</Heading>
+                <ContactContainer>
+                    <ContactBox>
+                        <Name>1234567890</Name>
+                        <Desc>Utkarsh Mishra</Desc>
+                    </ContactBox>
+                    <ContactBox>
+                        <Name>1234567890</Name>
+                        <Desc>Hrithik Shubham</Desc>
+                    </ContactBox>
+                    <ContactBox>
+                        <Name>1234567890</Name>
+                        <Desc>Nagendra Kumar</Desc>
+                    </ContactBox>
+                    <ContactBox>
+                        <Name>president.edc@bitmesra.ac.in</Name>
+                        <Desc>Email</Desc>
+                    </ContactBox>
+                </ContactContainer>
+                <SocialContainer>
+                    <Social><FaLinkedin /></Social>
+                    <Social><FaFacebookSquare /></Social>
+                    <Social><RiInstagramLine /></Social>
+                </SocialContainer>
+                <LogoContainer>
+                    <Logo src={logo} />
+                    <Logo src={edc} />
+                </LogoContainer>
+            </SectionContainer>
         </Container>
     )
 }
@@ -69,12 +118,13 @@ const LandingSectionContainer = styled.div`
 
 const LandingHeading = styled.h1`
      color:#fff;
-     font-size:86px;
+     font-size:126px;
      text-align:center;
      padding:50px 0px 10px 0px;
 
      @media screen and (max-width:600px){
         text-align:left;
+        font-size:86px;
     }
 
 `
@@ -197,6 +247,84 @@ const EventsContainer = styled.div`
     justify-content:center;
     flex-wrap:wrap;
     padding-top:50px;
+`
+
+const Banner = styled.h3`
+    color:white;
+    font-weight:normal;
+    font-size:24px;
+    padding-top:50px;
+`
+
+const ContactContainer = styled.div`
+    display:flex;
+    justify-content:space-between;
+    padding:0px 100px;
+    flex-wrap:wrap;
+    padding-top:50px;
+    @media screen and (max-width:800px){
+        padding:0px 0px;
+    }
+`
+
+const ContactBox = styled.div`
+    padding:20px;
+    @media screen and (max-width:800px){
+        padding:20px 5px;
+    }
+`
+
+const Name = styled.h3`
+    font-size:32px;
+    color:#fff;
+    font-weight:lighter;
+    @media screen and (max-width:800px){
+        font-size:24px;
+    }
+
+`
+
+const Desc = styled.h5`
+    background-image: linear-gradient(to right, #f76c6c, #e8637c, #d45f8a, #bc5e93, #a25e97);
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-size:18px;
+    @media screen and (max-width:800px){
+        font-size:14px;
+    }
+`
+const SocialContainer = styled.div`
+    padding-top:50px;
+    display:flex;
+    justify-content:center;
+    @media screen and (max-width:600px){
+        justify-content:left;
+    }
+`
+
+const Social = styled.a`
+    font-size:46px;
+    padding:0px 20px;
+    color:#fff;
+
+    @media screen and (max-width:600px){
+        padding:0px 20px 0px 0px;
+    }
+`
+const LogoContainer = styled.div`
+    padding-top:50px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+`
+const Logo = styled.img`
+    width:400px;
+    display:block;
+    @media screen and (max-width:600px){
+        width:300px;
+    }
 `
 
 

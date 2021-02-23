@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import logo from '../assets/logo.webp'
+import logo from '../assets/logo.png'
 import { Link } from 'react-router-dom'
 import { HiMenuAlt2 } from 'react-icons/hi'
 
@@ -21,18 +21,15 @@ const Navbar = () => {
                     <LinkWeb to='/'>Speakers</LinkWeb>
                 </NavLinkWeb>
                 <NavLinkWeb>
-                    <LinkWeb to='/'>FAQ</LinkWeb>
-                </NavLinkWeb>
-                <NavLinkWeb>
                     <LinkWeb to='/'>About Us</LinkWeb>
                 </NavLinkWeb>
                 <NavLinkWeb>
                     <LinkWebSpecial to='/'>Schedule</LinkWebSpecial>
                 </NavLinkWeb>
             </LinksContainer>
-            <BurgerContainer>
+            {/* <BurgerContainer>
                 <Burger />
-            </BurgerContainer>
+            </BurgerContainer> */}
         </NavContainer>
     )
 }
@@ -56,9 +53,9 @@ const LogoContainer = styled.div`
 `
 
 const Logo = styled.img`
-    width:200px;
+    width:250px;
     @media screen and (max-width:850px){
-        width:120px;
+        width:200px;
     }
 `
 
@@ -116,21 +113,21 @@ const LinkWebSpecial = styled(Link)`
     }
 `
 
-const BurgerContainer = styled.div`
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-top:20px;
-    display:none;
+// const BurgerContainer = styled.div`
+//     display:flex;
+//     justify-content:center;
+//     align-items:center;
+//     margin-top:20px;
+//     display:none;
 
-    @media screen and (max-width:850px){
-        display:flex;
-        margin-top:0px;
-    }
-`
+//     @media screen and (max-width:850px){
+//         display:flex;
+//         margin-top:0px;
+//     }
+// `
 
-const Burger = styled(HiMenuAlt2)`
-    color:#fff;
-    font-size:36px;
-    margin-top:10px;
-`
+// const Burger = styled(HiMenuAlt2)`
+//     color:#fff;
+//     font-size:36px;
+//     margin-top:10px;
+// `
