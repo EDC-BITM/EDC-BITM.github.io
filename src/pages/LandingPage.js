@@ -31,15 +31,10 @@ const LandingPage = () => {
             <SectionContainer>
                 <Heading>Theme</Heading>
                 <Paragraph>
-                    It is that time of year again! One-week of limitless freedom to
-                    play, create, and test out ideas that may go nowhere – or that might
-                    just change the world. Following the spirit of Hackathons, this
-                    year, we have adapted and evolved, and we bring you our second
-                    edition of Hack.  <br /> <br />
-                    Learn. Level Up. Lead. Join us on March 2-3, 2021 for this
-                    free virtual event. Connect with Gatsby community members from all over the world,
-                     advance your skills with free workshops, and hear the latest announcements from
-                     the Gatsby team. Claim your spot!
+                    Unprecedented times call for  unshakeable roots and an unstinted enthusiasm. Entrepreneurship is the paradigm that never goes down, never fails in the face if adversity, or so the pandemic has shown to us.
+                    It is time to embrace the unknown realms, the unsaid virtuality and the new developments. <br /><br />
+                    We , the Entrepreneurship Development Cell at BIT, Mesra are there to bring forth an experience of changing times for you. With our mega annual fest E Summit'21 and its dynamic theme of 'A New Norm', we are all set to face the tough times with our confidence and spirits. So get ready and hop on for the experience of a lifetime. Be the hustle, turn the tables with creativity and dynamism.
+                    Explore the boundless horizons of the trader in you.  Innovate, evaluate, analyze and inspire, as we believe in being the change.
                 </Paragraph>
             </SectionContainer>
             <SectionContainer>
