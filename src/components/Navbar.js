@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import logo from '../assets/logo.png'
-import { Link } from 'react-router-dom'
-import { HiMenuAlt2 } from 'react-icons/hi'
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
     return (
@@ -12,19 +11,19 @@ const Navbar = () => {
             </LogoContainer>
             <LinksContainer>
                 <NavLinkWeb>
-                    <LinkWeb to='/'>Home</LinkWeb>
+                    <LinkWeb to='edc-home'>Home</LinkWeb>
                 </NavLinkWeb>
                 <NavLinkWeb>
-                    <LinkWeb to='/'>Events</LinkWeb>
+                    <LinkWeb smooth to="/#events">Events</LinkWeb>
                 </NavLinkWeb>
                 <NavLinkWeb>
-                    <LinkWeb to='/'>Speakers</LinkWeb>
+                    <LinkWeb smooth to="/#speakers">Speakers</LinkWeb>
                 </NavLinkWeb>
                 <NavLinkWeb>
-                    <LinkWeb to='/'>About Us</LinkWeb>
+                    <LinkWeb smooth to='team'>Team</LinkWeb>
                 </NavLinkWeb>
                 <NavLinkWeb>
-                    <LinkWebSpecial to='/'>Schedule</LinkWebSpecial>
+                    <LinkWebSpecial smooth to="/#schedule">Schedule</LinkWebSpecial>
                 </NavLinkWeb>
             </LinksContainer>
             {/* <BurgerContainer>

@@ -9,6 +9,14 @@ const App = () => {
       <div>
         <Navbar />
         <Switch>
+          <Route path="/edc-home" component={() => {
+            window.location.href = 'https://edcbitmesra.in/';
+            return null;
+          }} />
+          <Route path="/team" component={() => {
+            window.location.href = 'https://edcbitmesra.in/team.html';
+            return null;
+          }} />
           <Route path="/" exact component={LandingPage} />
         </Switch>
       </div>

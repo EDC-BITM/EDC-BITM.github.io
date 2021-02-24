@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/E-SUMMIT-2021/static/css/main.c46c8154.chunk.css",
-    "main.js": "/E-SUMMIT-2021/static/js/main.ca05942c.chunk.js",
-    "main.js.map": "/E-SUMMIT-2021/static/js/main.ca05942c.chunk.js.map",
+    "main.js": "/E-SUMMIT-2021/static/js/main.75ca6e23.chunk.js",
+    "main.js.map": "/E-SUMMIT-2021/static/js/main.75ca6e23.chunk.js.map",
     "runtime-main.js": "/E-SUMMIT-2021/static/js/runtime-main.7d6fd6db.js",
     "runtime-main.js.map": "/E-SUMMIT-2021/static/js/runtime-main.7d6fd6db.js.map",
-    "static/js/2.afed9678.chunk.js": "/E-SUMMIT-2021/static/js/2.afed9678.chunk.js",
-    "static/js/2.afed9678.chunk.js.map": "/E-SUMMIT-2021/static/js/2.afed9678.chunk.js.map",
+    "static/js/2.56768b6a.chunk.js": "/E-SUMMIT-2021/static/js/2.56768b6a.chunk.js",
+    "static/js/2.56768b6a.chunk.js.map": "/E-SUMMIT-2021/static/js/2.56768b6a.chunk.js.map",
     "index.html": "/E-SUMMIT-2021/index.html",
     "static/css/main.c46c8154.chunk.css.map": "/E-SUMMIT-2021/static/css/main.c46c8154.chunk.css.map",
-    "static/js/2.afed9678.chunk.js.LICENSE.txt": "/E-SUMMIT-2021/static/js/2.afed9678.chunk.js.LICENSE.txt",
+    "static/js/2.56768b6a.chunk.js.LICENSE.txt": "/E-SUMMIT-2021/static/js/2.56768b6a.chunk.js.LICENSE.txt",
     "static/media/aman.d7d62748.jpg": "/E-SUMMIT-2021/static/media/aman.d7d62748.jpg",
     "static/media/back.958fbf0f.webp": "/E-SUMMIT-2021/static/media/back.958fbf0f.webp",
     "static/media/boardroom.b63c0611.svg": "/E-SUMMIT-2021/static/media/boardroom.b63c0611.svg",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7d6fd6db.js",
-    "static/js/2.afed9678.chunk.js",
+    "static/js/2.56768b6a.chunk.js",
     "static/css/main.c46c8154.chunk.css",
-    "static/js/main.ca05942c.chunk.js"
+    "static/js/main.75ca6e23.chunk.js"
   ]
 }

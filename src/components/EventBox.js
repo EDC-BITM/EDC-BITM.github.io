@@ -13,8 +13,8 @@ const EventBox = (props) => {
                     <EventDetails>{props.data.Desc}</EventDetails>
                 </EventDescContainer>
                 <EventKnowContainer>
-                    <KnowMore>Know More</KnowMore>
-                    <Register>Register</Register>
+                    {/* <KnowMore>Know More</KnowMore> */}
+                    <Register>Coming Soon</Register>
                 </EventKnowContainer>
             </EventsBox>
         </>

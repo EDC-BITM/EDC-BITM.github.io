@@ -23,8 +23,8 @@ const LandingPage = () => {
                     MARCH <span color="white">5-14</span>, 2021 • ONLINE
                 </LandingDate>
                 <LandingButtonContainer>
-                    <LandingButton backColor="#fff" fontColor=" #0e0f25">Register</LandingButton>
-                    <LandingButton>Join Discord</LandingButton>
+                    {/* <LandingButton backColor="#fff" fontColor=" #0e0f25">Register</LandingButton> */}
+                    <LandingButton href="https://discord.gg/P4HY45Ezkd">Join Discord</LandingButton>
                 </LandingButtonContainer>
             </LandingSectionContainer>
 
@@ -37,7 +37,7 @@ const LandingPage = () => {
                     Explore the boundless horizons of the trader in you.  Innovate, evaluate, analyze and inspire, as we believe in being the change.
                 </Paragraph>
             </SectionContainer>
-            <SectionContainer>
+            <SectionContainer id="events">
                 <Heading>Events</Heading>
                 <EventsContainer>
                     {Events.map((event) => {
@@ -45,17 +45,18 @@ const LandingPage = () => {
                     })}
                 </EventsContainer>
             </SectionContainer>
-            <SectionContainer>
+            <SectionContainer id="speakers">
                 <Heading>Speakers</Heading>
-                <EventsContainer>
+                {/* <EventsContainer>
                     {
                         Speakers.map((speaker) => {
                             return (<SpeakerBox data={speaker} />)
                         })
                     }
-                </EventsContainer>
+                </EventsContainer> */}
+                <Banner>Will be updated soon...</Banner>
             </SectionContainer>
-            <SectionContainer>
+            <SectionContainer id="schedule">
                 <Heading>Schedule</Heading>
                 <Banner>Will be updated soon...</Banner>
             </SectionContainer>
@@ -63,16 +64,16 @@ const LandingPage = () => {
                 <Heading>Contact</Heading>
                 <ContactContainer>
                     <ContactBox>
-                        <Name>1234567890</Name>
+                        <Name>+91-8674960047</Name>
                         <Desc>Utkarsh Mishra</Desc>
                     </ContactBox>
                     <ContactBox>
-                        <Name>1234567890</Name>
+                        <Name>+91-9123499293</Name>
                         <Desc>Hrithik Shubham</Desc>
                     </ContactBox>
                     <ContactBox>
-                        <Name>1234567890</Name>
-                        <Desc>Nagendra Kumar</Desc>
+                        <Name>+91-9082499159</Name>
+                        <Desc>Kshitij Yash</Desc>
                     </ContactBox>
                     <ContactBox>
                         <Name>president.edc@bitmesra.ac.in</Name>
@@ -80,9 +81,9 @@ const LandingPage = () => {
                     </ContactBox>
                 </ContactContainer>
                 <SocialContainer>
-                    <Social><FaLinkedin /></Social>
-                    <Social><FaFacebookSquare /></Social>
-                    <Social><RiInstagramLine /></Social>
+                    <Social href="https://www.linkedin.com/company/edcbitm/"><FaLinkedin /></Social>
+                    <Social href="https://www.facebook.com/edcbitmesra/"><FaFacebookSquare /></Social>
+                    <Social href="https://www.instagram.com/edcbitmesra/"><RiInstagramLine /></Social>
                 </SocialContainer>
                 <LogoContainer>
                     <Logo src={logo} />
