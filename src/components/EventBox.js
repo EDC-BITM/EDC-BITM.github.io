@@ -13,8 +13,19 @@ const EventBox = (props) => {
                     <EventDetails>{props.data.Desc}</EventDetails>
                 </EventDescContainer>
                 <EventKnowContainer>
-                    {/* <KnowMore>Know More</KnowMore> */}
-                    <Register>Coming Soon</Register>
+                    {/* <KnowMore href={props.data.link}>Know More</KnowMore>
+                    <Register href={props.data.link}>Coming Soon</Register> */}
+
+                    {
+                        (props.data.link) ? (
+                            <>
+                                <KnowMore href={props.data.link}>Know More</KnowMore>
+                                <Register href={props.data.link}>Register</Register>
+                            </>
+                        ) : (
+                                <KnowMore>Coming Soon</KnowMore>
+                            )
+                    }
                 </EventKnowContainer>
             </EventsBox>
         </>
@@ -90,6 +101,7 @@ const KnowMore = styled.a`
     padding:5px 10px;
     margin-right:10px;
     border-radius:5px;
+    text-decoration:none;
 `
 
 const Register = styled.a`
@@ -99,4 +111,5 @@ const Register = styled.a`
     padding:5px 10px;
     margin-right:5px;
     border-radius:5px;
+    text-decoration:none;
 `

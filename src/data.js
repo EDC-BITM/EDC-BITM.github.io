@@ -18,62 +18,74 @@ export const Events = [
     {
         Name: "Bplan",
         Desc: "The secret to getting ahead is getting started!",
-        Image: bplan
+        Image: bplan,
+        link: "https://dare2compete.com/o/b-plan-e-summit21-birla-institute-of-technology-bit-mesra-ranchi-151442"
     },
     {
         Name: "Wolf of Birla Street",
         Desc: "In line to be the next Jordan Belfort",
-        Image: wolf
+        Image: wolf,
+        link: "https://dare2compete.com/o/wolf-of-birla-street-e-summit21-birla-institute-of-technology-bit-mesra-ranchi-151436"
     },
     {
         Name: "MoneyBall",
         Desc: "A thrilling game depicting world trade",
-        Image: moneyball
+        Image: moneyball,
+        link: "https://dare2compete.com/o/moneyball-e-summit21-birla-institute-of-technology-bit-mesra-ranchi-151497"
     },
     {
         Name: "BoardRoom",
         Desc: "Live your dream as the executives of a Fortune 500 company",
-        Image: boardroom
+        Image: boardroom,
+        link: "https://dare2compete.com/o/boardroom-e-summit21-birla-institute-of-technology-bit-mesra-ranchi-151519"
     },
     {
         Name: "Storage War$",
         Desc: "Pop cult Auction",
-        Image: storage
+        Image: storage,
+        link: "https://dare2compete.com/o/storage-war-birla-institute-of-technology-bit-mesra-ranchi-151508"
     },
     {
         Name: "House of Cards",
         Desc: "Case Study in an innovative paradigm",
-        Image: houseofcards
+        Image: houseofcards,
+        link: "https://dare2compete.com/o/house-of-cards-e-summit21-birla-institute-of-technology-bit-mesra-ranchi-151521"
     },
     {
         Name: "Pitch Please",
         Desc: "Marketing against the odds",
-        Image: pitch
+        Image: pitch,
+        link: "https://dare2compete.com/o/pitch-please-e-summit21-birla-institute-of-technology-bit-mesra-ranchi-151490"
     },
     {
         Name: "Monopoly",
         Desc: "Monopoly with a tinge of the stock market",
-        Image: monopoly
+        Image: monopoly,
+        link: ""
     },
     {
         Name: "Aslimov",
         Desc: "Esports event ( CS:GO )",
-        Image: esport
+        Image: esport,
+        link: "https://computersolutionranchi.com/esummit-21"
     },
     {
         Name: "Poker",
         Desc: "Esports event (Online Poker)",
-        Image: poker
+        Image: poker,
+        link: ""
     },
     {
         Name: "Movie Nights",
         Desc: "Movies based on finance to be presented every weekend",
-        Image: movie
+        Image: movie,
+        link: ""
     },
     {
         Name: "Crypto Trading",
         Desc: "Welcome to the market of the future",
-        Image: crypto
+        Image: crypto,
+        link: "https://dare2compete.com/o/crypto-trading-challenge-e-summit21-birla-institute-of-technology-bit-mesra-ranchi-151566"
     },
 
 ]

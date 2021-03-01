@@ -23,7 +23,7 @@ const LandingPage = () => {
                     MARCH 12-14, 2021 • ONLINE
                 </LandingDate>
                 <LandingButtonContainer>
-                    {/* <LandingButton backColor="#fff" fontColor=" #0e0f25">Register</LandingButton> */}
+                    <LandingButton href="https://dare2compete.com/f/e-summit21-entrepreneurship-development-cell-bit-mesra-10091" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton>
                     <LandingButton href="https://discord.gg/P4HY45Ezkd">Join Discord</LandingButton>
                 </LandingButtonContainer>
             </LandingSectionContainer>
