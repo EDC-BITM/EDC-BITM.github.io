@@ -1,5 +1,5 @@
 {
-  "homepage": "https://esummit.edcbitmesra.in/",
+  "homepage": "https://esummit.edcbitmesra.in",
   "name": "EDC-BITM.github.io",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=true react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
