@@ -20,7 +20,7 @@ const LandingPage = () => {
                     EDC, BIT Mesra is back with its latest edition of east-India's largest <Span>E Summit</Span>.
                 </LandingDescription>
                 <LandingDate>
-                    MARCH <span color="white">5-14</span>, 2021 • ONLINE
+                    MARCH 12-14, 2021 • ONLINE
                 </LandingDate>
                 <LandingButtonContainer>
                     {/* <LandingButton backColor="#fff" fontColor=" #0e0f25">Register</LandingButton> */}
