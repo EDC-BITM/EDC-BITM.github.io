@@ -1,11 +1,11 @@
 
 import React from 'react'
-import { Route, Switch, HashRouter } from 'react-router-dom';
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import LandingPage from './pages/LandingPage'
 const App = () => {
   return (
-    <HashRouter>
+    <Router>
       <div>
         <Navbar />
         <Switch>
@@ -20,7 +20,7 @@ const App = () => {
           <Route path="/" exact component={LandingPage} />
         </Switch>
       </div>
-    </HashRouter>
+    </Router>
   )
 }
 
