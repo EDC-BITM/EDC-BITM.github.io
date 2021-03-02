@@ -2,8 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import landingIllustration from '../assets/back.webp'
 import EventBox from '../components/EventBox'
+import SponsorBox from '../components/SponsorBox'
 import SpeakerBox from '../components/SpeakerBox'
-import { Events, Speakers } from "../data"
+import { Events, Speakers, sponsors } from "../data"
 import { FaFacebookSquare, FaLinkedin } from "react-icons/fa"
 import { RiInstagramLine } from 'react-icons/ri'
 import logo from '../assets/logo.png'
@@ -57,8 +58,14 @@ const LandingPage = () => {
                 <Banner>Will be updated soon...</Banner>
             </SectionContainer>
             <SectionContainer id="schedule">
-                <Heading>Schedule</Heading>
-                <Banner>Will be updated soon...</Banner>
+                <Heading>Sponsors</Heading>
+                <EventsContainer>
+                    {
+                        sponsors.map((sponsor) => {
+                            return (<SponsorBox data={sponsor} />)
+                        })
+                    }
+                </EventsContainer>
             </SectionContainer>
             <SectionContainer>
                 <Heading>Contact</Heading>
