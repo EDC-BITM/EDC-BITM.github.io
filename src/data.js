@@ -96,7 +96,7 @@ export const Events = [
         link: ""
     },
     {
-        Name: "Aslimov",
+        Name: "Asiimov",
         Desc: "Esports event ( CS:GO )",
         Image: esport,
         link: "https://computersolutionranchi.com/esummit-21"
@@ -173,7 +173,7 @@ export const sponsors = [
     },
     {
         Name: "Code Warriors",
-        Link: "https://codewarriors2020.tech/",
+        Link: "https://codewarriors.in/",
         image: codeWarriors,
         type: "Platform Partner"
     }, {
