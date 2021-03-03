@@ -187,8 +187,8 @@ export const sponsors = [
         image: computerSol,
         type: "Accessories Partner"
     }, {
-        Name: "Cuskart",
-        Link: "https://www.cuskart.com/",
+        Name: "Custkart Merchandise Store",
+        Link: "http://www.instagram.com/hicustkart",
         image: custkart,
         type: "Merchandise Partner"
     }, {
