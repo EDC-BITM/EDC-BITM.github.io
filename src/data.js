@@ -93,7 +93,7 @@ export const Events = [
         Name: "Monopoly",
         Desc: "Monopoly with a tinge of the stock market",
         Image: monopoly,
-        link: ""
+        link: "https://dare2compete.com/o/monopoly-e-summit21-birla-institute-of-technology-bit-mesra-ranchi-151586"
     },
     {
         Name: "Asiimov",
