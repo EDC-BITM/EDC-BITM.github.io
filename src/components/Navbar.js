@@ -23,7 +23,7 @@ const Navbar = () => {
                     <LinkWeb smooth to='team'>Team</LinkWeb>
                 </NavLinkWeb>
                 <NavLinkWeb>
-                    <LinkWebSpecial smooth to="/#schedule">Schedule</LinkWebSpecial>
+                    <LinkWebSpecial smooth to="/#schedule">Sponsors</LinkWebSpecial>
                 </NavLinkWeb>
             </LinksContainer>
             {/* <BurgerContainer>
