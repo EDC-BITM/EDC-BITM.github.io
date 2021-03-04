@@ -261,7 +261,7 @@ export const sponsors = [
         Name: "Stumagz",
         Link: "https://www.stumagz.com/",
         image: stumagz,
-        type: "Magazine Partner"
+        type: "Student Outreach Partner"
     }, {
         Name: "Suno Bey",
         Link: "https://sunobey.in/",
