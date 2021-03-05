@@ -105,7 +105,7 @@ export const Events = [
         Name: "Poker",
         Desc: "Esports event (Online Poker)",
         Image: poker,
-        link: ""
+        link: "https://dare2compete.com/o/poker-e-summit21-birla-institute-of-technology-bit-mesra-ranchi-151720"
     },
     {
         Name: "Movie Nights",
