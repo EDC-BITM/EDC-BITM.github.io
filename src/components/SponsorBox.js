@@ -77,7 +77,7 @@ const ImageContainer = styled.div`
 `
 
 const Image = styled.img`
-    width:250px;
+    width:200px;
 `
 
 const NameContainer = styled.div`

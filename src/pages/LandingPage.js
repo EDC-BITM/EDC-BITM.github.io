@@ -38,6 +38,17 @@ const LandingPage = () => {
                     Explore the boundless horizons of the trader in you.  Innovate, evaluate, analyze and inspire, as we believe in being the change.
                 </Paragraph>
             </SectionContainer>
+            <SectionContainer id="speakers">
+                <Heading>Speakers</Heading>
+                <EventsContainer>
+                    {
+                        Speakers.map((speaker) => {
+                            return (<SpeakerBox data={speaker} />)
+                        })
+                    }
+                </EventsContainer>
+                {/* <Banner>Will be updated soon...</Banner> */}
+            </SectionContainer>
             <SectionContainer id="events">
                 <Heading>Events</Heading>
                 <EventsContainer>
@@ -45,17 +56,6 @@ const LandingPage = () => {
                         return (<EventBox data={event} />)
                     })}
                 </EventsContainer>
-            </SectionContainer>
-            <SectionContainer id="speakers">
-                <Heading>Speakers</Heading>
-                {/* <EventsContainer>
-                    {
-                        Speakers.map((speaker) => {
-                            return (<SpeakerBox data={speaker} />)
-                        })
-                    }
-                </EventsContainer> */}
-                <Banner>Will be updated soon...</Banner>
             </SectionContainer>
             <SectionContainer id="schedule">
                 <Heading>Sponsors</Heading>

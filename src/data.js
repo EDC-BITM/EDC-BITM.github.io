@@ -16,7 +16,15 @@ import iplAuction from './assets/iplAuction.svg'
 
 
 // speakers
-import aman from './assets/aman.jpg'
+import amanDhat from './assets/amanDhat.jpeg'
+import pawanKumar from './assets/pawanKumar.jpeg'
+import vineet from './assets/vineet.jpeg'
+import ayush from './assets/ayush.jpeg'
+import sanjeev from './assets/sanjeev.jpeg'
+import abhinav from './assets/abhinav.jpeg'
+import sridher from './assets/sridher.jpeg'
+import kishan from './assets/kishan.jpeg'
+import anand from './assets/anand.jpeg'
 
 // sponsors
 import bisleri from './assets/sponsors/bisleri.jpg'
@@ -143,40 +151,60 @@ export const Events = [
 
 export const Speakers = [
     {
-        Name: "Aman Srivastava",
-        Desc: "Software Developer, EDC",
-        Image: aman
+        Name: "Aman Dhattarwal",
+        Desc: "Youtuber",
+        Image: amanDhat,
+        link: "https://www.linkedin.com/in/dhattarwalaman/"
     },
     {
-        Name: "Aman Srivastava",
-        Desc: "Software Developer, EDC",
-        Image: aman
+        Name: "Pawan Kumar Rai",
+        Desc: "Co-founder- Finshots, Ditto",
+        Image: pawanKumar,
+        link: "https://www.linkedin.com/in/pawan-kumar-rai-2a437a61/"
     },
     {
-        Name: "Aman Srivastava",
-        Desc: "Software Developer, EDC",
-        Image: aman
+        Name: "Vineet Barnwal",
+        Desc: "Trainer, Consultant",
+        Image: vineet,
+        link: "https://www.linkedin.com/in/vineet-barnwal-1019269/"
     },
     {
-        Name: "Aman Srivastava",
-        Desc: "Software Developer, EDC",
-        Image: aman
+        Name: "Ayush Jaiswal",
+        Desc: "Founder- Pesto",
+        Image: ayush,
+        link: "https://www.linkedin.com/in/aayushjaiswal07/"
     },
     {
-        Name: "Aman Srivastava",
-        Desc: "Software Developer, EDC",
-        Image: aman
+        Name: "Sanjeev Mohanty",
+        Desc: "MD- Levi Strauss & Co.",
+        Image: sanjeev,
+        link: "https://www.linkedin.com/in/sanjeevmohanty/"
     },
     {
-        Name: "Aman Srivastava",
-        Desc: "Software Developer, EDC",
-        Image: aman
+        Name: "Abhinav Sinha",
+        Desc: "Co-founder- Eko",
+        Image: abhinav,
+        link: "https://www.linkedin.com/in/absinha/"
     },
     {
-        Name: "Aman Srivastava",
-        Desc: "Software Developer, EDC",
-        Image: aman
+        Name: "Sridher Jeyachandran",
+        Desc: "Co-founder- Crio.do",
+        Image: sridher,
+        link: "https://www.linkedin.com/in/sridher-jeyachandran/"
     },
+    {
+        Name: "Kishan Panpaliya",
+        Desc: "Head(business)- Pepper",
+        Image: kishan,
+        link: "https://www.linkedin.com/in/kishan-panpalia/"
+    },
+    {
+        Name: "Anand Verma",
+        Desc: "Founder- fasal, Forbes 30 under 30",
+        Image: anand,
+        link: "https://www.linkedin.com/in/ananda-verma-a8b42b1b/"
+    },
+
 ]
 
 export const sponsors = [
@@ -307,5 +335,5 @@ export const sponsors = [
         Link: "",
         image: womenInov,
         type: "Innovation Partner"
-    },
+    }
 ]

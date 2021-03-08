@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const SpeakerBox = (props) => {
     return (
-        <>
+        <LinkWrap href={props.data.link}>
             <MainContainer>
                 <ImageContainer>
                     <Image src={props.data.Image} />
@@ -14,12 +14,16 @@ const SpeakerBox = (props) => {
                     <Designation>{props.data.Desc}</Designation>
                 </TextContainer>
             </MainContainer>
-        </>
+        </LinkWrap>
     )
 }
 
 export default SpeakerBox
 
+
+const LinkWrap = styled.a`
+    text-decoration:none;
+`
 
 const MainContainer = styled.div`
     background-color:#151629;
@@ -70,10 +74,12 @@ const Name = styled.h3`
     -webkit-text-fill-color: transparent;
     text-align:center;
     font-size:28px;
+    text-decoration:none;
 `
 
 const Designation = styled.p`
     text-align:center;
     color:#fff;
     font-size:14px;
+    text-decoration:none;
 `
