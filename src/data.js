@@ -11,6 +11,9 @@ import pitch from './assets/pitch.svg'
 import poker from './assets/poker.svg'
 import storage from './assets/storage.svg'
 import wolf from './assets/wolf.svg'
+import footballAuction from './assets/footballAuction.svg'
+import iplAuction from './assets/iplAuction.svg'
+
 
 // speakers
 import aman from './assets/aman.jpg'
@@ -64,6 +67,18 @@ export const Events = [
         Desc: "A thrilling game depicting world trade",
         Image: moneyball,
         link: "https://dare2compete.com/o/moneyball-e-summit21-birla-institute-of-technology-bit-mesra-ranchi-151497"
+    },
+    {
+        Name: "Football Auction",
+        Desc: "Make Your dream team, win great prizes",
+        Image: footballAuction,
+        link: ""
+    },
+    {
+        Name: "IPL Auction",
+        Desc: "Why only football auction, this is for all those cricket enthusiasts.",
+        Image: iplAuction,
+        link: ""
     },
     {
         Name: "BoardRoom",
