@@ -134,7 +134,7 @@ export const Events = [
         Name: "Movie Nights",
         Desc: "Movies based on finance to be presented every weekend",
         Image: movie,
-        link: ""
+        link: "https://discord.com/invite/paQM5tsfyb"
     },
     {
         Name: "Crypto Trading",
