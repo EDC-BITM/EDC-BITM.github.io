@@ -40,6 +40,7 @@ const LandingPage = () => {
             </SectionContainer>
             <SectionContainer id="speakers">
                 <Heading>Speakers</Heading>
+                <Banner><LandingButton href="https://www.runtheworld.today/app/invitation/20012" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton></Banner>
                 <EventsContainer>
                     {
                         Speakers.map((speaker) => {
@@ -51,6 +52,8 @@ const LandingPage = () => {
             </SectionContainer>
             <SectionContainer id="events">
                 <Heading>Events</Heading>
+                <Banner><LandingButton href="https://dare2compete.com/f/e-summit21-entrepreneurship-development-cell-bit-mesra-10091" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton></Banner>
+
                 <EventsContainer>
                     {Events.map((event) => {
                         return (<EventBox data={event} />)
@@ -252,7 +255,7 @@ const EventsContainer = styled.div`
     padding-top:50px;
 `
 
-const Banner = styled.h3`
+const Banner = styled.div`
     color:white;
     font-weight:normal;
     font-size:24px;

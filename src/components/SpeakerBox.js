@@ -55,12 +55,17 @@ const Image = styled.img`
 `
 
 const Overlay = styled.div`
+    transition: all 0.4s;
     position:absolute;
     width:100%;
     height:100%;
     top:0;
     left:0;
     background-image: linear-gradient(to left bottom, rgba(247, 108, 108,0.3), rgba(194, 78, 120,0.4), rgba(130, 61, 116,0.5), rgba(65, 47, 94,0.6), rgba(4, 28, 59,0.7));
+    &:hover{
+        background-image:none;
+        transition: all 0.4s;
+    }
 `
 
 const TextContainer = styled.div`
