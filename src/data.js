@@ -80,13 +80,13 @@ export const Events = [
         Name: "Football Auction",
         Desc: "Make Your dream team, win great prizes",
         Image: footballAuction,
-        link: ""
+        link: "https://dare2compete.com/o/jAcvZaT?refId=0ox6liS"
     },
     {
         Name: "IPL Auction",
         Desc: "Why only football auction, this is for all those cricket enthusiasts.",
         Image: iplAuction,
-        link: ""
+        link: "https://dare2compete.com/o/ipl-auction-e-summit21-birla-institute-of-technology-bit-mesra-ranchi-152821"
     },
     {
         Name: "BoardRoom",
@@ -157,6 +157,24 @@ export const Speakers = [
         link: "https://www.linkedin.com/in/dhattarwalaman/"
     },
     {
+        Name: "Anand Verma",
+        Desc: "Founder- fasal, Forbes 30 under 30",
+        Image: anand,
+        link: "https://www.linkedin.com/in/ananda-verma-a8b42b1b/"
+    },
+    {
+        Name: "Sanjeev Mohanty",
+        Desc: "MD- Levi Strauss & Co.",
+        Image: sanjeev,
+        link: "https://www.linkedin.com/in/sanjeevmohanty/"
+    },
+    {
+        Name: "Abhinav Sinha",
+        Desc: "Co-founder- Eko",
+        Image: abhinav,
+        link: "https://www.linkedin.com/in/absinha/"
+    },
+    {
         Name: "Pawan Kumar Rai",
         Desc: "Co-founder- Finshots, Ditto",
         Image: pawan,
@@ -175,18 +193,6 @@ export const Speakers = [
         link: "https://www.linkedin.com/in/aayushjaiswal07/"
     },
     {
-        Name: "Sanjeev Mohanty",
-        Desc: "MD- Levi Strauss & Co.",
-        Image: sanjeev,
-        link: "https://www.linkedin.com/in/sanjeevmohanty/"
-    },
-    {
-        Name: "Abhinav Sinha",
-        Desc: "Co-founder- Eko",
-        Image: abhinav,
-        link: "https://www.linkedin.com/in/absinha/"
-    },
-    {
         Name: "Sridher Jeyachandran",
         Desc: "Co-founder- Crio.do",
         Image: sridher,
@@ -198,12 +204,6 @@ export const Speakers = [
     //     Image: kishan,
     //     link: "https://www.linkedin.com/in/kishan-panpalia/"
     // },
-    {
-        Name: "Anand Verma",
-        Desc: "Founder- fasal, Forbes 30 under 30",
-        Image: anand,
-        link: "https://www.linkedin.com/in/ananda-verma-a8b42b1b/"
-    },
 
 ]
 
