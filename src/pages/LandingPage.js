@@ -40,14 +40,14 @@ const LandingPage = () => {
             </SectionContainer>
             <SectionContainer id="speakers">
                 <Heading>Speakers</Heading>
-        {/*<EventsContainer>
+                <EventsContainer>
                     {
                         Speakers.map((speaker) => {
                             return (<SpeakerBox data={speaker} />)
                         })
                     }
-                </EventsContainer>*/}
-                 <Banner>Will be updated soon...</Banner> 
+                </EventsContainer>
+                {/* <Banner>Will be updated soon...</Banner>  */}
             </SectionContainer>
             <SectionContainer id="events">
                 <Heading>Events</Heading>

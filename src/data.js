@@ -16,15 +16,15 @@ import iplAuction from './assets/iplAuction.svg'
 
 
 // speakers
-import amanDhat from './assets/amanDhat.jpeg'
-import pawanKumar from './assets/pawanKumar.jpeg'
-import vineet from './assets/vineet.jpeg'
-import ayush from './assets/ayush.jpeg'
-import sanjeev from './assets/sanjeev.jpeg'
-import abhinav from './assets/abhinav.jpeg'
-import sridher from './assets/sridher.jpeg'
-import kishan from './assets/kishan.jpeg'
-import anand from './assets/anand.jpeg'
+import amanDhat from './assets/amanDhat.jpg'
+import pawan from './assets/pawan.jpg'
+import vineet from './assets/vineet.jpg'
+import ayush from './assets/ayush.jpg'
+import sanjeev from './assets/sanjeev.jpg'
+import abhinav from './assets/abhinav.jpg'
+import sridher from './assets/sridher.jpg'
+// import kishan from './assets/kishan.jpeg'
+import anand from './assets/anand.jpg'
 
 // sponsors
 import bisleri from './assets/sponsors/bisleri.jpg'
@@ -159,7 +159,7 @@ export const Speakers = [
     {
         Name: "Pawan Kumar Rai",
         Desc: "Co-founder- Finshots, Ditto",
-        Image: pawanKumar,
+        Image: pawan,
         link: "https://www.linkedin.com/in/pawan-kumar-rai-2a437a61/"
     },
     {
@@ -192,12 +192,12 @@ export const Speakers = [
         Image: sridher,
         link: "https://www.linkedin.com/in/sridher-jeyachandran/"
     },
-    {
-        Name: "Kishan Panpaliya",
-        Desc: "Head(business)- Pepper",
-        Image: kishan,
-        link: "https://www.linkedin.com/in/kishan-panpalia/"
-    },
+    // {
+    //     Name: "Kishan Panpaliya",
+    //     Desc: "Head(business)- Pepper",
+    //     Image: kishan,
+    //     link: "https://www.linkedin.com/in/kishan-panpalia/"
+    // },
     {
         Name: "Anand Verma",
         Desc: "Founder- fasal, Forbes 30 under 30",
