@@ -286,7 +286,7 @@ export const sponsors = [
         image: myways,
         type: "Career Partner"
     }, {
-        Name: "Nikkon",
+        Name: "Nikon",
         Link: "https://www.nikon.co.in/en_IN",
         image: Nikon,
         type: "Equipment Partner"
