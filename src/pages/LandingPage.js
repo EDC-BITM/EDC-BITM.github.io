@@ -40,7 +40,7 @@ const LandingPage = () => {
             </SectionContainer>
             <SectionContainer id="speakers">
                 <Heading>Speakers</Heading>
-                <Banner><LandingButton href="https://www.runtheworld.today/app/invitation/20012" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton></Banner>
+                <Banner><LandingButton href="https://floxus.typeform.com/to/Nvy3hqQT" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton></Banner>
                 <EventsContainer>
                     {
                         Speakers.map((speaker) => {
