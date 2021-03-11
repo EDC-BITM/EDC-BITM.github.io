@@ -18,7 +18,7 @@ import iplAuction from './assets/iplAuction.svg'
 // speakers
 import amanDhat from './assets/amanDhat.jpg'
 import pawan from './assets/pawan.jpg'
-import vineet from './assets/vineet.jpg'
+import vineet from './assets/vineet.png'
 import ayush from './assets/ayush.jpg'
 import sanjeev from './assets/sanjeev.jpg'
 import abhinav from './assets/abhinav.jpg'
