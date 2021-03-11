@@ -23,7 +23,7 @@ import ayush from './assets/ayush.jpg'
 import sanjeev from './assets/sanjeev.jpg'
 import abhinav from './assets/abhinav.jpg'
 import sridher from './assets/sridher.jpg'
-// import kishan from './assets/kishan.jpeg'
+import richa from './assets/richa.jpeg'
 import anand from './assets/anand.jpg'
 
 // sponsors
@@ -222,12 +222,12 @@ export const Speakers = [
         Image: sridher,
         link: "https://www.linkedin.com/in/sridher-jeyachandran/"
     },
-    // {
-    //     Name: "Kishan Panpaliya",
-    //     Desc: "Head(business)- Pepper",
-    //     Image: kishan,
-    //     link: "https://www.linkedin.com/in/kishan-panpalia/"
-    // },
+    {
+        Name: "Richa Shrivastava",
+        Desc: "Managing Partner, Maker's Asylum ",
+        Image: richa,
+        link: "https://www.linkedin.com/in/shrivastavaricha/"
+    },
 
 ]
 

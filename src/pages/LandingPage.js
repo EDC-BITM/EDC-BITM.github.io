@@ -9,6 +9,11 @@ import { FaFacebookSquare, FaLinkedin } from "react-icons/fa"
 import { RiInstagramLine } from 'react-icons/ri'
 import logo from '../assets/logo.png'
 import edc from '../assets/edc.png'
+import angel from '../assets/sponsors/angel.png'
+import floxus from '../assets/sponsors/floxus.png'
+import ibHubs from '../assets/sponsors/ibHubs.png'
+import learningWhileTravelling from '../assets/sponsors/Learning_While_Travelling_TM_png.png'
+import tie from '../assets/sponsors/tie.png'
 
 const LandingPage = () => {
     return (
@@ -60,8 +65,46 @@ const LandingPage = () => {
                     })}
                 </EventsContainer>
             </SectionContainer>
-            <SectionContainer id="schedule">
+            <SectionContainer id="sponsors">
                 <Heading>Sponsors</Heading>
+                <SponsorHeading>Title Sponsor</SponsorHeading>
+                <ImpSponsorContainer>
+                    <ImpSponsorBox>
+                        <ImageContainer>
+                            <Image src={angel} />
+                        </ImageContainer>
+                    </ImpSponsorBox>
+                </ImpSponsorContainer>
+                <SponsorHeading>Co-Powered By</SponsorHeading>
+                <ImpSponsorContainer>
+                    <ImpSponsorBox>
+                        <ImageContainer>
+                            <Image src={floxus} />
+                        </ImageContainer>
+                    </ImpSponsorBox>
+
+                    <ImpSponsorBox>
+                        <ImageContainer>
+                            <Image src={ibHubs} />
+                        </ImageContainer>
+                    </ImpSponsorBox>
+                </ImpSponsorContainer>
+
+                <SponsorHeading>In Association with</SponsorHeading>
+                <ImpSponsorContainer>
+                    <ImpSponsorBox>
+                        <ImageContainer>
+                            <Image src={tie} />
+                        </ImageContainer>
+                    </ImpSponsorBox>
+
+                    <ImpSponsorBox>
+                        <ImageContainer>
+                            <Image src={learningWhileTravelling} />
+                        </ImageContainer>
+                    </ImpSponsorBox>
+                </ImpSponsorContainer>
+                <SponsorHeading>All Sponsors</SponsorHeading>
                 <EventsContainer>
                     {
                         sponsors.map((sponsor) => {
@@ -105,6 +148,33 @@ const LandingPage = () => {
 }
 
 export default LandingPage
+
+const ImpSponsorBox = styled.div`
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+`
+
+const ImageContainer = styled.div`
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:200px;
+    height:200px;
+    background-color:white;
+    border-radius:10px;
+    overflow:hidden;
+`
+
+const Image = styled.img`
+    width:200px;
+    border-radius:5px;
+    padding:10px;
+`
+
 
 const Container = styled.div`
     background-size:100%;
@@ -223,12 +293,24 @@ const SectionContainer = styled.div`
 `
 
 const Heading = styled.h1`
-    display:inline;
+    display:block;
     background-image: linear-gradient(to right, #f76c6c, #e8637c, #d45f8a, #bc5e93, #a25e97);
     -webkit-background-clip: text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
     font-size:56px;
+    padding-bottom:50px;
+`
+
+const SponsorHeading = styled.h1`
+    display:block;
+    /* background-image: linear-gradient(to right, #f76c6c, #e8637c, #d45f8a, #bc5e93, #a25e97);
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent; */
+    color:white;
+    font-size:24px;
+    text-align:center;
 `
 
 const Paragraph = styled.p`
@@ -253,6 +335,14 @@ const EventsContainer = styled.div`
     justify-content:center;
     flex-wrap:wrap;
     padding-top:50px;
+`
+
+const ImpSponsorContainer = styled.div`
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    padding-top:10px;
+    padding-bottom:50px;
 `
 
 const Banner = styled.div`
