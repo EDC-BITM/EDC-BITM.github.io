@@ -54,6 +54,30 @@ import theStartupLab from './assets/sponsors/the-startup-lab.png'
 import winkies from './assets/sponsors/winkies.png'
 import womenInov from './assets/sponsors/WomennovatorTM-1.png'
 import youthInc from './assets/sponsors/youth-inc.png'
+import floxus from './assets/sponsors/floxus.png'
+import aura from './assets/sponsors/AuraZone.jpg'
+import boudhik from './assets/sponsors/boudhik.png'
+import vanarah from './assets/sponsors/vanarah.png'
+import psyberDuck from './assets/sponsors/psyberDuck.png'
+import rubrix from './assets/sponsors/rubrix.png'
+import tupWeb from './assets/sponsors/tupWeb.png'
+import skillingIndia from './assets/sponsors/skillingIndia.png'
+import tie from './assets/sponsors/tie.png'
+import kareems from './assets/sponsors/kareems.jpg'
+import homeflic from './assets/sponsors/homefic.png'
+import lemonSchool from './assets/sponsors/lemonSchool.png'
+import crowdera from './assets/sponsors/crowdera.png'
+import pizzaHut from './assets/sponsors/pizzaHut.png'
+import ibHubs from './assets/sponsors/ibHubs.png'
+import meraEvent from './assets/sponsors/meraEvent.png'
+import radio from './assets/sponsors/radio.png'
+import startupTimes from './assets/sponsors/startupTimes.png'
+import blueHills from './assets/sponsors/blueHills.png'
+import angelBroking from './assets/sponsors/angel.png'
+import startupEd from './assets/sponsors/startupEd.png'
+import pepper from './assets/sponsors/pepper.png'
+import lawyered from './assets/sponsors/lawered.png'
+import idfc from './assets/sponsors/IDFC.png'
 
 
 
@@ -229,6 +253,23 @@ export const sponsors = [
         Link: "https://computersolutionranchi.com/",
         image: computerSol,
         type: "Accessories Partner"
+    },
+    {
+        Name: "Codingal",
+        Link: "",
+        image: codingal,
+        type: "Creative learning partner"
+    },
+    {
+        Name: "Know Your Fest",
+        Link: "",
+        image: knowyourfest,
+        type: "Online Publicity Partner"
+    }, {
+        Name: "Floxus",
+        Link: "",
+        image: floxus,
+        type: "Co powered By"
     }, {
         Name: "Custkart Merchandise Store",
         Link: "http://www.instagram.com/hicustkart",
@@ -335,5 +376,115 @@ export const sponsors = [
         Link: "",
         image: womenInov,
         type: "Innovation Partner"
+    }, {
+        Name: "Aura Zone",
+        Link: "",
+        image: aura,
+        type: "Styling Partner"
+    }, {
+        Name: "Boudhik Venture",
+        Link: "",
+        image: boudhik,
+        type: "Intellectual Property Partner"
+    }, {
+        Name: "Vaanahaa",
+        Link: "",
+        image: vanarah,
+        type: "Internship Partner"
+    }, {
+        Name: "Psyber Duck",
+        Link: "",
+        image: psyberDuck,
+        type: "Web Hosting Partner"
+    }, {
+        Name: "Rubrix",
+        Link: "",
+        image: rubrix,
+        type: "Infotainment Partner"
+    }, {
+        Name: "WTupWeb",
+        Link: "",
+        image: tupWeb,
+        type: "Open Source Partner"
+    }, {
+        Name: "Skilling India",
+        Link: "",
+        image: skillingIndia,
+        type: "Online Skilling Partner"
+    }, {
+        Name: "TIE Kolkata",
+        Link: "",
+        image: tie,
+        type: "In Association with EDC BIT Mesra"
+    }, {
+        Name: "Kareems",
+        Link: "",
+        image: kareems,
+        type: "Dining Partner"
+    }, {
+        Name: "Homeflic Wegrow",
+        Link: "",
+        image: homeflic,
+        type: "Community Partner"
+    }, {
+        Name: "Lemon School of Entrepreneurship",
+        Link: "",
+        image: lemonSchool,
+        type: "Innovation Partner"
+    }, {
+        Name: "Crowdera",
+        Link: "",
+        image: crowdera,
+        type: "Crowdfunding Partner"
+    }, {
+        Name: "Pizza Hut",
+        Link: "",
+        image: pizzaHut,
+        type: "Pizza Partner"
+    }, {
+        Name: "IB Hubs",
+        Link: "",
+        image: ibHubs,
+        type: "Co Powered By"
+    }, {
+        Name: "Mera Event",
+        Link: "",
+        image: meraEvent,
+        type: "Outreach Partner"
+    }, {
+        Name: "Radio City",
+        Link: "",
+        image: radio,
+        type: "Radio Partner"
+    }, {
+        Name: "Startup times",
+        Link: "",
+        image: startupTimes,
+        type: "Media Partner"
+    }, {
+        Name: "Blue Hill Publications",
+        Link: "",
+        image: blueHills,
+        type: "Publication Partner"
+    }, {
+        Name: "Angel Broking",
+        Link: "",
+        image: angelBroking,
+        type: "Title Sponsor"
+    }, {
+        Name: "Startuped",
+        Link: "",
+        image: startupEd,
+        type: "Cloud Partner"
+    }, {
+        Name: "Pepper Content",
+        Link: "",
+        image: pepper,
+        type: "Content Partner"
+    }, {
+        Name: "IDFC First Bank",
+        Link: "",
+        image: idfc,
+        type: "Banking Partner"
     }
 ]
