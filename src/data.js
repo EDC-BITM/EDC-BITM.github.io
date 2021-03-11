@@ -206,7 +206,7 @@ export const Speakers = [
     },
     {
         Name: "Vineet Barnwal",
-        Desc: "Trainer, Consultant",
+        Desc: "India's leading campus trainer & coach",
         Image: vineet,
         link: "https://www.linkedin.com/in/vineet-barnwal-1019269/"
     },
