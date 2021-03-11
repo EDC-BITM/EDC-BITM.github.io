@@ -24,7 +24,7 @@ const LandingPage = () => {
                     MARCH 12-14, 2021 • ONLINE
                 </LandingDate>
                 <LandingButtonContainer>
-                    <LandingButton href="https://floxus.typeform.com/to/Nvy3hqQT" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton>
+                    <LandingButton href="https://www.runtheworld.today/app/invitation/20012" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton>
                     <LandingButton href="https://discord.gg/paQM5tsfyb">Join Discord</LandingButton>
                 </LandingButtonContainer>
             </LandingSectionContainer>
@@ -40,7 +40,7 @@ const LandingPage = () => {
             </SectionContainer>
             <SectionContainer id="speakers">
                 <Heading>Speakers</Heading>
-                <Banner><LandingButton href="https://floxus.typeform.com/to/Nvy3hqQT" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton></Banner>
+                <Banner><LandingButton href="https://www.runtheworld.today/app/invitation/20012" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton></Banner>
                 <EventsContainer>
                     {
                         Speakers.map((speaker) => {
