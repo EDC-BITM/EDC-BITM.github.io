@@ -251,16 +251,115 @@ export const sponsors = [
         type: "Hydration Partner"
     },
     {
-        Name: "Code Warriors",
-        Link: "https://codewarriors.in/",
-        image: codeWarriors,
-        type: "Platform Partner"
-    }, {
+        Name: "Jetbrains",
+        Link: "https://www.jetbrains.com/",
+        image: jetbrains,
+        type: "Tooling Partner"
+    },
+    {
         Name: "Coding Blocks",
         Link: "https://codingblocks.com/",
         image: codingBlocks,
         type: "Coding Partner"
-    }, {
+    },
+    {
+        Name: "Foreign Admits",
+        Link: "https://foreignadmits.com/",
+        image: foreignAdmits,
+        type: "Career Mentorship Partner"
+    },
+    {
+        Name: "Nikon",
+        Link: "https://www.nikon.co.in/en_IN",
+        image: Nikon,
+        type: "Equipment Partner"
+    },
+    {
+        Name: "Suno Bey Entertainment",
+        Link: "https://sunobey.in/",
+        image: sunobey,
+        type: "Recreation Partner"
+    }, 
+
+    {
+        Name: "Crowdera",
+        Link: "https://gocrowdera.com/",
+        image: crowdera,
+        type: "Crowdfunding Partner"
+    },
+    {
+        Name: "Pizza Hut",
+        Link: "",
+        image: pizzaHut,
+        type: "Pizza Partner"
+    },
+    {
+        Name: "Skilling India",
+        Link: "",
+        image: skillingIndia,
+        type: "Online Skilling Partner"
+    }, 
+    {
+        Name: "IDFC First Bank",
+        Link: "",
+        image: idfc,
+        type: "Banking Partner"
+    },
+    {
+        Name: "Barbeque Nation",
+        Link: "",
+        image: bbqnation,
+        type: "Barbeque Partner"
+    },
+    {
+        Name: '100x Entrepreneurs',
+        Link: "https://100xentrepreneur.com/",
+        image: hundredx,
+        type: "Venture Partner"
+    },
+    {
+        Name: "Radio City",
+        Link: "",
+        image: radio,
+        type: "Radio Partner"
+    },
+    {
+        Name: "Startuped",
+        Link: "",
+        image: startupEd,
+        type: "Cloud Partner"
+    }, 
+    {
+        Name: "Lemon School of Entrepreneurship",
+        Link: "",
+        image: lemonSchool,
+        type: "Innovation Partner"
+    }, 
+    {
+        Name: "Boudhik Venture",
+        Link: "",
+        image: boudhik,
+        type: "Intellectual Property Partner"
+    }, 
+    {
+        Name: "Indian Academy of Entrepreneurship",
+        Link: "https://www.iaeglocal.com/?v=980040635268",
+        image: iae,
+        type: "Innovation Partner"
+    }, 
+    {
+        Name: "Lawyered",
+        Link: "",
+        image: lawyered,
+        type: "Legal Partner"
+    }, 
+
+    {
+        Name: "Code Warriors",
+        Link: "https://codewarriors.in/",
+        image: codeWarriors,
+        type: "Platform Partner"
+    },  {
         Name: "Computer Solution Ranchi",
         Link: "https://computersolutionranchi.com/",
         image: computerSol,
@@ -297,43 +396,23 @@ export const sponsors = [
         Link: "",
         image: fcr,
         type: "Food Partner"
-    }, {
-        Name: "Foreign Admits",
-        Link: "https://foreignadmits.com/",
-        image: foreignAdmits,
-        type: "Career Mentorship Partner"
-    }, {
+    },  {
         Name: "Fyre Energy",
         Link: "https://www.fyreenergy.com/",
         image: fyre,
         type: "Energized By,"
-    }, {
-        Name: "Indian Academy of Entrepreneurship",
-        Link: "https://www.iaeglocal.com/?v=980040635268",
-        image: iae,
-        type: "Innovation Partner"
-    }, {
+    },{
         Name: "Interview Buddy",
         Link: "https://interviewbuddy.in/",
         image: interviewBuddy,
         type: "Interview Partner"
-    }, {
-        Name: "Jetbrains",
-        Link: "https://www.jetbrains.com/",
-        image: jetbrains,
-        type: "Tooling Partner"
-    },
+    }, 
     {
         Name: "Myways",
         Link: "https://myways.in/",
         image: myways,
         type: "Career Partner"
-    }, {
-        Name: "Nikon",
-        Link: "https://www.nikon.co.in/en_IN",
-        image: Nikon,
-        type: "Equipment Partner"
-    }, {
+    },  {
         Name: "Startup News",
         Link: "https://www.startupnews.fyi/",
         image: startupNews,
@@ -348,11 +427,6 @@ export const sponsors = [
         Link: "https://www.stumagz.com/",
         image: stumagz,
         type: "Student Outreach Partner"
-    }, {
-        Name: "Suno Bey Entertainment",
-        Link: "https://sunobey.in/",
-        image: sunobey,
-        type: "Recreation Partner"
     }, {
         Name: "The Startup Lab",
         Link: "https://thestartuplab.in/",
@@ -384,11 +458,6 @@ export const sponsors = [
         image: aura,
         type: "Styling Partner"
     }, {
-        Name: "Boudhik Venture",
-        Link: "",
-        image: boudhik,
-        type: "Intellectual Property Partner"
-    }, {
         Name: "Vaanahaa",
         Link: "",
         image: vanarah,
@@ -409,11 +478,6 @@ export const sponsors = [
         image: tupWeb,
         type: "Open Source Partner"
     }, {
-        Name: "Skilling India",
-        Link: "",
-        image: skillingIndia,
-        type: "Online Skilling Partner"
-    }, {
         Name: "Kareems",
         Link: "",
         image: kareems,
@@ -423,32 +487,12 @@ export const sponsors = [
         Link: "",
         image: homeflic,
         type: "Community Partner"
-    }, {
-        Name: "Lemon School of Entrepreneurship",
-        Link: "",
-        image: lemonSchool,
-        type: "Innovation Partner"
-    }, {
-        Name: "Crowdera",
-        Link: "https://gocrowdera.com/",
-        image: crowdera,
-        type: "Crowdfunding Partner"
-    }, {
-        Name: "Pizza Hut",
-        Link: "",
-        image: pizzaHut,
-        type: "Pizza Partner"
-    }, {
+    },  {
         Name: "Mera Event",
         Link: "",
         image: meraEvent,
         type: "Outreach Partner"
-    }, {
-        Name: "Radio City",
-        Link: "",
-        image: radio,
-        type: "Radio Partner"
-    }, {
+    },  {
         Name: "Startup times",
         Link: "",
         image: startupTimes,
@@ -459,39 +503,14 @@ export const sponsors = [
         image: blueHills,
         type: "Publication Partner"
     }, {
-        Name: "Startuped",
-        Link: "",
-        image: startupEd,
-        type: "Cloud Partner"
-    }, {
         Name: "Pepper Content",
         Link: "",
         image: pepper,
         type: "Content Partner"
-    }, {
-        Name: "IDFC First Bank",
-        Link: "",
-        image: idfc,
-        type: "Banking Partner"
-    }, {
-        Name: "Lawyered",
-        Link: "",
-        image: lawyered,
-        type: "Legal Partner"
-    }, {
-        Name: "Barbeque Nation",
-        Link: "",
-        image: bbqnation,
-        type: "Barbeque Partner"
-    }, {
+    },  {
         Name: "Hiralal Groups",
         Link: "",
         image: hiralal,
         type: "Industry Partner"
-    }, {
-        Name: '100x Entrepreneurs',
-        Link: "https://100xentrepreneur.com/",
-        image: hundredx,
-        type: "Venture Partner"
     }
 ]
