@@ -203,21 +203,21 @@ export const Speakers = [
         Desc: "Co-founder- Eko",
         Image: abhinav,
         link: "https://www.linkedin.com/in/absinha/",
-        alumni: 'BIT Mesra alumnus'
+        alumni: 'BIT Mesra alumnus(1999-03)'
     },
     {
         Name: "Pawan Kumar Rai",
         Desc: "Co-founder- Finshots, Ditto",
         Image: pawan,
         link: "https://www.linkedin.com/in/pawan-kumar-rai-2a437a61/",
-        alumni: 'BIT Mesra alumnus'
+        alumni: 'BIT Mesra alumnus(2010-14)'
     },
     {
         Name: "Vineet Barnwal",
         Desc: "India's leading campus trainer & coach",
         Image: vineet,
         link: "https://www.linkedin.com/in/vineet-barnwal-1019269/",
-        alumni: 'BIT Mesra alumnus'
+        alumni: 'BIT Mesra alumnus(2000-04)'
     },
     {
         Name: "Ayush Jaiswal",
@@ -238,7 +238,7 @@ export const Speakers = [
         Desc: "Managing Partner, Maker's Asylum ",
         Image: richa,
         link: "https://www.linkedin.com/in/shrivastavaricha/",
-        alumni: 'BIT Mesra alumnus'
+        alumni: 'BIT Mesra alumnus(2006-10)'
     },
 
 ]
