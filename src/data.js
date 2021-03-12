@@ -78,6 +78,9 @@ import startupEd from './assets/sponsors/startupEd.png'
 import pepper from './assets/sponsors/pepper.png'
 import lawyered from './assets/sponsors/lawered.png'
 import idfc from './assets/sponsors/IDFC.png'
+import bbqnation from './assets/sponsors/bbqnation.png'
+import hiralal from './assets/sponsors/hiralal.jpeg'
+import hundredx from './assets/sponsors/100x.jpg'
 
 
 
@@ -178,55 +181,64 @@ export const Speakers = [
         Name: "Aman Dhattarwal",
         Desc: "Youtuber",
         Image: amanDhat,
-        link: "https://www.linkedin.com/in/dhattarwalaman/"
+        link: "https://www.linkedin.com/in/dhattarwalaman/",
+        alumni: ''
     },
     {
         Name: "Anand Verma",
         Desc: "Founder- fasal, Forbes 30 under 30",
         Image: anand,
-        link: "https://www.linkedin.com/in/ananda-verma-a8b42b1b/"
+        link: "https://www.linkedin.com/in/ananda-verma-a8b42b1b/",
+        alumni: ''
     },
     {
         Name: "Sanjeev Mohanty",
         Desc: "MD- Levi Strauss & Co.",
         Image: sanjeev,
-        link: "https://www.linkedin.com/in/sanjeevmohanty/"
+        link: "https://www.linkedin.com/in/sanjeevmohanty/",
+        alumni: ''
     },
     {
         Name: "Abhinav Sinha",
         Desc: "Co-founder- Eko",
         Image: abhinav,
-        link: "https://www.linkedin.com/in/absinha/"
+        link: "https://www.linkedin.com/in/absinha/",
+        alumni: 'BIT Mesra alumnus'
     },
     {
         Name: "Pawan Kumar Rai",
         Desc: "Co-founder- Finshots, Ditto",
         Image: pawan,
-        link: "https://www.linkedin.com/in/pawan-kumar-rai-2a437a61/"
+        link: "https://www.linkedin.com/in/pawan-kumar-rai-2a437a61/",
+        alumni: 'BIT Mesra alumnus'
     },
     {
         Name: "Vineet Barnwal",
         Desc: "India's leading campus trainer & coach",
         Image: vineet,
-        link: "https://www.linkedin.com/in/vineet-barnwal-1019269/"
+        link: "https://www.linkedin.com/in/vineet-barnwal-1019269/",
+        alumni: 'BIT Mesra alumnus'
     },
     {
         Name: "Ayush Jaiswal",
         Desc: "Founder- Pesto",
         Image: ayush,
-        link: "https://www.linkedin.com/in/aayushjaiswal07/"
+        link: "https://www.linkedin.com/in/aayushjaiswal07/",
+        alumni: ''
     },
     {
         Name: "Sridher Jeyachandran",
         Desc: "Co-founder- Crio.do",
         Image: sridher,
-        link: "https://www.linkedin.com/in/sridher-jeyachandran/"
+        link: "https://www.linkedin.com/in/sridher-jeyachandran/",
+        alumni: ''
     },
     {
         Name: "Richa Shrivastava",
         Desc: "Managing Partner, Maker's Asylum ",
         Image: richa,
-        link: "https://www.linkedin.com/in/shrivastavaricha/"
+        link: "https://www.linkedin.com/in/shrivastavaricha/",
+        alumni: 'BIT Mesra alumnus'
     },
 
 ]
@@ -265,11 +277,6 @@ export const sponsors = [
         Link: "",
         image: knowyourfest,
         type: "Online Publicity Partner"
-    }, {
-        Name: "Floxus",
-        Link: "",
-        image: floxus,
-        type: "Co powered By"
     }, {
         Name: "Custkart Merchandise Store",
         Link: "http://www.instagram.com/hicustkart",
@@ -317,11 +324,6 @@ export const sponsors = [
         type: "Tooling Partner"
     },
     {
-        Name: "Learning While Travelling",
-        Link: "https://learningwhiletravelling.com/",
-        image: learningWhile,
-        type: "In association with"
-    }, {
         Name: "Myways",
         Link: "https://myways.in/",
         image: myways,
@@ -347,7 +349,7 @@ export const sponsors = [
         image: stumagz,
         type: "Student Outreach Partner"
     }, {
-        Name: "Suno Bey",
+        Name: "Suno Bey Entertainment",
         Link: "https://sunobey.in/",
         image: sunobey,
         type: "Recreation Partner"
@@ -378,7 +380,7 @@ export const sponsors = [
         type: "Innovation Partner"
     }, {
         Name: "Aura Zone",
-        Link: "",
+        Link: "https://instagram.com/aura_zone_in?igshid=1eps8vbwo6cu9",
         image: aura,
         type: "Styling Partner"
     }, {
@@ -402,8 +404,8 @@ export const sponsors = [
         image: rubrix,
         type: "Infotainment Partner"
     }, {
-        Name: "WTupWeb",
-        Link: "",
+        Name: "TUP Web",
+        Link: "http://tupweb.codes/",
         image: tupWeb,
         type: "Open Source Partner"
     }, {
@@ -411,11 +413,6 @@ export const sponsors = [
         Link: "",
         image: skillingIndia,
         type: "Online Skilling Partner"
-    }, {
-        Name: "TIE Kolkata",
-        Link: "",
-        image: tie,
-        type: "In Association with EDC BIT Mesra"
     }, {
         Name: "Kareems",
         Link: "",
@@ -433,7 +430,7 @@ export const sponsors = [
         type: "Innovation Partner"
     }, {
         Name: "Crowdera",
-        Link: "",
+        Link: "https://gocrowdera.com/",
         image: crowdera,
         type: "Crowdfunding Partner"
     }, {
@@ -441,11 +438,6 @@ export const sponsors = [
         Link: "",
         image: pizzaHut,
         type: "Pizza Partner"
-    }, {
-        Name: "IB Hubs",
-        Link: "",
-        image: ibHubs,
-        type: "Co Powered By"
     }, {
         Name: "Mera Event",
         Link: "",
@@ -467,11 +459,6 @@ export const sponsors = [
         image: blueHills,
         type: "Publication Partner"
     }, {
-        Name: "Angel Broking",
-        Link: "",
-        image: angelBroking,
-        type: "Title Sponsor"
-    }, {
         Name: "Startuped",
         Link: "",
         image: startupEd,
@@ -486,5 +473,25 @@ export const sponsors = [
         Link: "",
         image: idfc,
         type: "Banking Partner"
+    }, {
+        Name: "Lawyered",
+        Link: "",
+        image: lawyered,
+        type: "Legal Partner"
+    }, {
+        Name: "Barbeque Nation",
+        Link: "",
+        image: bbqnation,
+        type: "Barbeque Partner"
+    }, {
+        Name: "Hiralal Groups",
+        Link: "",
+        image: hiralal,
+        type: "Industry Partner"
+    }, {
+        Name: '100x Entrepreneurs',
+        Link: "https://100xentrepreneur.com/",
+        image: hundredx,
+        type: "Venture Partner"
     }
 ]

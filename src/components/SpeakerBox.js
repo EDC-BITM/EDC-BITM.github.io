@@ -12,6 +12,7 @@ const SpeakerBox = (props) => {
                 <TextContainer>
                     <Name>{props.data.Name}</Name>
                     <Designation>{props.data.Desc}</Designation>
+                    <Designation special padded>{props.data.alumni}</Designation>
                 </TextContainer>
             </MainContainer>
         </LinkWrap>
@@ -84,7 +85,8 @@ const Name = styled.h3`
 
 const Designation = styled.p`
     text-align:center;
-    color:#fff;
     font-size:14px;
     text-decoration:none;
+    color:${props => { if (props.special) { return '#f76c6c' } else { return "#fff" } }};
+    padding-top:${props => { if (props.padded) { return '5px' } else { return "0px" } }};
 `

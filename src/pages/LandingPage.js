@@ -14,6 +14,7 @@ import floxus from '../assets/sponsors/floxus.png'
 import ibHubs from '../assets/sponsors/ibHubs.png'
 import learningWhileTravelling from '../assets/sponsors/Learning_While_Travelling_TM_png.png'
 import tie from '../assets/sponsors/tie.png'
+import iic from '../assets/sponsors/iic.jpeg'
 
 const LandingPage = () => {
     return (
@@ -101,6 +102,12 @@ const LandingPage = () => {
                     <ImpSponsorBox>
                         <ImageContainer>
                             <Image src={learningWhileTravelling} />
+                        </ImageContainer>
+                    </ImpSponsorBox>
+
+                    <ImpSponsorBox>
+                        <ImageContainer>
+                            <Image src={iic} />
                         </ImageContainer>
                     </ImpSponsorBox>
                 </ImpSponsorContainer>
