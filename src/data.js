@@ -81,6 +81,10 @@ import idfc from './assets/sponsors/IDFC.png'
 import bbqnation from './assets/sponsors/bbqnation.png'
 import hiralal from './assets/sponsors/hiralal.jpeg'
 import hundredx from './assets/sponsors/100x.jpg'
+import creatorOfProducts from './assets/sponsors/creatorOfProducts.png'
+import duBeat from './assets/sponsors/duBeat.png'
+import womenInBusiness from './assets/sponsors/womenInBusiness.png'
+import amal from './assets/sponsors/amal.jpeg'
 
 
 
@@ -395,7 +399,7 @@ export const sponsors = [
         type: "Legal Partner"
     }, {
         Name: "Hiralal Groups",
-        Link: "",
+        Link: "http://www.hiralalgroupranchi.co.in/",
         image: hiralal,
         type: "Industry Partner"
     },
@@ -408,17 +412,17 @@ export const sponsors = [
         Name: "Computer Solution Ranchi",
         Link: "https://computersolutionranchi.com/",
         image: computerSol,
-        type: "Accessories Partner"
+        type: "Asiimov Powered By"
     },
     {
         Name: "Codingal",
-        Link: "",
+        Link: "https://www.codingal.com/",
         image: codingal,
         type: "Creative learning partner"
     },
     {
         Name: "Know Your Fest",
-        Link: "",
+        Link: "https://www.knowafest.com/college-fests/events",
         image: knowyourfest,
         type: "Online Publicity Partner"
     }, {
@@ -437,10 +441,10 @@ export const sponsors = [
         image: duExpress,
         type: "Media Partner"
     }, {
-        Name: "FCR",
+        Name: "Blue Hill Publication",
         Link: "",
-        image: fcr,
-        type: "Food Partner"
+        image: blueHills,
+        type: "Publication Partner"
     }, {
         Name: "Fyre Energy",
         Link: "https://www.fyreenergy.com/",
@@ -466,7 +470,7 @@ export const sponsors = [
         Name: "Shuffle Cafe",
         Link: "",
         image: shuffleCafe,
-        type: "Fooding Partner"
+        type: "Cafe Partner"
     }, {
         Name: "Stumagz",
         Link: "https://www.stumagz.com/",
@@ -481,27 +485,32 @@ export const sponsors = [
         Name: "Tech Bairn",
         Link: "",
         image: techbrains,
-        type: "Technology Partner"
+        type: "Learning Partner"
     }, {
         Name: "Winkies",
         Link: "http://winkies.co.in/",
         image: winkies,
-        type: "Eat Happy"
+        type: "Don't Worry, Eat Happy"
     }, {
         Name: "Youth Inc.",
         Link: "http://www.youthincorporated.org/",
         image: youthInc,
         type: "Youth Media Partner"
     }, {
-        Name: "Womannovator",
+        Name: "Womennovator",
         Link: "",
         image: womenInov,
-        type: "Innovation Partner"
+        type: "Virtual Incubation Partner"
     }, {
         Name: "Aura Zone",
         Link: "https://instagram.com/aura_zone_in?igshid=1eps8vbwo6cu9",
         image: aura,
         type: "Styling Partner"
+    }, {
+        Name: "FCR",
+        Link: "",
+        image: fcr,
+        type: "Food Partner"
     }, {
         Name: "Vaanahaa",
         Link: "",
@@ -548,14 +557,29 @@ export const sponsors = [
         image: startupTimes,
         type: "Media Partner"
     }, {
-        Name: "Blue Hill Publications",
-        Link: "",
-        image: blueHills,
-        type: "Publication Partner"
-    }, {
         Name: "Pepper Content",
         Link: "",
         image: pepper,
         type: "Content Partner"
+    }, {
+        Name: "DU Beat",
+        Link: "https://dubeat.com",
+        image: duBeat,
+        type: "Media Partner"
+    }, {
+        Name: "Women in Business",
+        Link: "",
+        image: womenInBusiness,
+        type: "Networking Partner"
+    }, {
+        Name: "Creator of Product",
+        Link: "",
+        image: creatorOfProducts,
+        type: "Media Partner"
+    }, {
+        Name: "Aakriti Super Snacks",
+        Link: "",
+        image: amal,
+        type: "Snacks Partner"
     },
 ]

@@ -89,29 +89,29 @@ const LandingPage = () => {
                 </EventsContainer>
             </SectionContainer>
             <SectionContainer>
-                <Heading>Blue Hill Publication*</Heading>
+                <Heading>Blue Hill Publication Authors & E-Books</Heading>
                 <EventsContainer>
-                    <BlueHillBox>
+                    <BlueHillBox href="https://www.facebook.com/abhinav.srivastav.3557">
                         <BlueHillAuthor src={abhinav} />
                         <BlueHillImage src={abhinavCover} />
                     </BlueHillBox>
-                    <BlueHillBox>
+                    <BlueHillBox href="https://instagram.com/dharanideiveegan">
                         <BlueHillAuthor src={dharani} />
                         <BlueHillImage src={dharaniCover} />
                     </BlueHillBox>
-                    <BlueHillBox>
+                    <BlueHillBox href="mailto:jv.geologist@gmail.com">
                         <BlueHillAuthor src={jose} />
                         <BlueHillImage src={joseCover} />
                     </BlueHillBox>
-                    <BlueHillBox>
+                    <BlueHillBox href="https://www.instagram.com/qaynaat.t/">
                         <BlueHillAuthor src={nisha} />
                         <BlueHillImage src={nishaCover} />
                     </BlueHillBox>
-                    <BlueHillBox>
+                    <BlueHillBox href="mailto:rohiniflc2000@yahoo.com">
                         <BlueHillAuthor src={rohini} />
                         <BlueHillImage src={rohiniCover} />
                     </BlueHillBox>
-                    <BlueHillBox>
+                    <BlueHillBox href="https://instagram.com/sandy11oct72">
                         <BlueHillAuthor src={sandeep} />
                         <BlueHillImage src={sandeepCover} />
                     </BlueHillBox>
@@ -207,13 +207,14 @@ const LandingPage = () => {
 
 export default LandingPage
 
-const BlueHillBox = styled.div`
+const BlueHillBox = styled.a`
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
     border-bottom:0.5px solid rgba(255,255,255,0.5);
     margin:10px 0px;
+    text-decoration:none;
 `
 
 const BlueHillAuthor = styled.img`
