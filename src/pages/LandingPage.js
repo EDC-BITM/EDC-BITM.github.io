@@ -4,7 +4,7 @@ import landingIllustration from '../assets/back.webp'
 import EventBox from '../components/EventBox'
 import SponsorBox from '../components/SponsorBox'
 import SpeakerBox from '../components/SpeakerBox'
-import { Events, Speakers, sponsors } from "../data"
+import { Events, Speakers, sponsors, speakerSchedule } from "../data"
 import { FaFacebookSquare, FaLinkedin } from "react-icons/fa"
 import { RiInstagramLine } from 'react-icons/ri'
 import logo from '../assets/logo.png'
@@ -15,7 +15,18 @@ import ibHubs from '../assets/sponsors/ibHubs.png'
 import learningWhileTravelling from '../assets/sponsors/Learning_While_Travelling_TM_png.png'
 import tie from '../assets/sponsors/tie.png'
 import iic from '../assets/sponsors/iic.jpeg'
-
+import abhinav from '../assets/blueHills/Abhinav Srivastav/Abhinav Srivastav.jpg'
+import abhinavCover from '../assets/blueHills/Abhinav Srivastav/Book Cover.png'
+import dharani from '../assets/blueHills/Dharani Deiveegan/Dharani Deiveegan.jpg'
+import dharaniCover from '../assets/blueHills/Dharani Deiveegan/Dharani Deiveegan Book.png'
+import jose from '../assets/blueHills/Jose Varghese/Jose Varghese.jpg'
+import joseCover from '../assets/blueHills/Jose Varghese/Book Cover.png'
+import nisha from '../assets/blueHills/Nisha Anuka/Nisha Bora.jpg'
+import nishaCover from '../assets/blueHills/Nisha Anuka/Book Cover.png'
+import rohini from '../assets/blueHills/Rohini Vohra/Rohini Vohra.JPG'
+import rohiniCover from '../assets/blueHills/Rohini Vohra/Book Cover.png'
+import sandeep from '../assets/blueHills/Sandeep Sinha/Sandeep Sinha.jpg'
+import sandeepCover from '../assets/blueHills/Sandeep Sinha/Book Cover.png'
 const LandingPage = () => {
     return (
         <Container>
@@ -56,6 +67,17 @@ const LandingPage = () => {
                 </EventsContainer>
                 {/* <Banner>Will be updated soon...</Banner>  */}
             </SectionContainer>
+            {/* <SectionContainer>
+                <Heading>Schedule</Heading>
+                <Banner><LandingButton href="https://www.runtheworld.today/app/invitation/20012" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton></Banner>
+                <EventsContainer back>
+                    {
+                        speakerSchedule.map((speaker) => {
+                            return (<ScheduleBox data={speaker} />)
+                        })
+                    }
+                </EventsContainer>
+            </SectionContainer> */}
             <SectionContainer id="events">
                 <Heading>Events</Heading>
                 <Banner><LandingButton href="https://dare2compete.com/f/e-summit21-entrepreneurship-development-cell-bit-mesra-10091" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton></Banner>
@@ -66,11 +88,40 @@ const LandingPage = () => {
                     })}
                 </EventsContainer>
             </SectionContainer>
+            <SectionContainer>
+                <Heading>Blue Hill Publication*</Heading>
+                <EventsContainer>
+                    <BlueHillBox>
+                        <BlueHillAuthor src={abhinav} />
+                        <BlueHillImage src={abhinavCover} />
+                    </BlueHillBox>
+                    <BlueHillBox>
+                        <BlueHillAuthor src={dharani} />
+                        <BlueHillImage src={dharaniCover} />
+                    </BlueHillBox>
+                    <BlueHillBox>
+                        <BlueHillAuthor src={jose} />
+                        <BlueHillImage src={joseCover} />
+                    </BlueHillBox>
+                    <BlueHillBox>
+                        <BlueHillAuthor src={nisha} />
+                        <BlueHillImage src={nishaCover} />
+                    </BlueHillBox>
+                    <BlueHillBox>
+                        <BlueHillAuthor src={rohini} />
+                        <BlueHillImage src={rohiniCover} />
+                    </BlueHillBox>
+                    <BlueHillBox>
+                        <BlueHillAuthor src={sandeep} />
+                        <BlueHillImage src={sandeepCover} />
+                    </BlueHillBox>
+                </EventsContainer>
+            </SectionContainer>
             <SectionContainer id="sponsors">
                 <Heading>Sponsors</Heading>
                 <SponsorHeading>Title Sponsor</SponsorHeading>
                 <ImpSponsorContainer>
-                    <ImpSponsorBox>
+                    <ImpSponsorBox href='https://www.angelbroking.com/'>
                         <ImageContainer>
                             <Image src={angel} />
                         </ImageContainer>
@@ -78,13 +129,13 @@ const LandingPage = () => {
                 </ImpSponsorContainer>
                 <SponsorHeading>Co-Powered By</SponsorHeading>
                 <ImpSponsorContainer>
-                    <ImpSponsorBox>
+                    <ImpSponsorBox href="https://www.floxus.tech/">
                         <ImageContainer>
                             <Image src={floxus} />
                         </ImageContainer>
                     </ImpSponsorBox>
 
-                    <ImpSponsorBox>
+                    <ImpSponsorBox href="https://ibhubs.co/">
                         <ImageContainer>
                             <Image src={ibHubs} />
                         </ImageContainer>
@@ -93,19 +144,19 @@ const LandingPage = () => {
 
                 <SponsorHeading>In Association with</SponsorHeading>
                 <ImpSponsorContainer>
-                    <ImpSponsorBox>
+                    <ImpSponsorBox href="https://kolkata.tie.org/">
                         <ImageContainer>
                             <Image src={tie} />
                         </ImageContainer>
                     </ImpSponsorBox>
 
-                    <ImpSponsorBox>
+                    <ImpSponsorBox href="https://learningwhiletravelling.com/">
                         <ImageContainer>
                             <Image src={learningWhileTravelling} />
                         </ImageContainer>
                     </ImpSponsorBox>
 
-                    <ImpSponsorBox>
+                    <ImpSponsorBox href="https://www.mic.gov.in/innovation-council/iic">
                         <ImageContainer>
                             <Image src={iic} />
                         </ImageContainer>
@@ -156,7 +207,25 @@ const LandingPage = () => {
 
 export default LandingPage
 
-const ImpSponsorBox = styled.div`
+const BlueHillBox = styled.div`
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-bottom:0.5px solid rgba(255,255,255,0.5);
+    margin:10px 0px;
+`
+
+const BlueHillAuthor = styled.img`
+    width:120px;
+    border-radius:10px;
+`
+
+const BlueHillImage = styled.img`
+    width:250px;
+`
+
+const ImpSponsorBox = styled.a`
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -341,10 +410,12 @@ const EventsContainer = styled.div`
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    padding-top:50px;
+    border-radius:20px;
+    padding:${props => { if (props.back) { return '50px' } else { return "50px 0px 0px 0px" } }};
+    background-color:${props => { if (props.back) { return '#151629' } else { return "rgba(0,0,0,0)" } }};
 `
 
-const ImpSponsorContainer = styled.div`
+const ImpSponsorContainer = styled.a`
     display:flex;
     justify-content:center;
     flex-wrap:wrap;

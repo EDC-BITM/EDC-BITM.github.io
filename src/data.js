@@ -84,6 +84,64 @@ import hundredx from './assets/sponsors/100x.jpg'
 
 
 
+export const speakerSchedule = [
+    {
+        time: '7 to 8PM',
+        date: '12th March',
+        name: 'Abhinav Sinha',
+        topic: 'Business in age of automation',
+        image: abhinav
+    }, {
+        time: '8:30 to 9:30PM',
+        date: '12th March',
+        name: 'Richa Shrivastava',
+        topic: 'Taking the road less travelled',
+        image: richa
+    }, {
+        time: '9 to 10AM',
+        date: '13th March',
+        name: 'Ayush Jaiswal',
+        topic: 'Fireside Chat',
+        image: ayush
+    }, {
+        time: '11AM to 12PM',
+        date: '13th March',
+        name: 'Sridher Jeyachandran',
+        topic: 'Fireside Chat',
+        image: sridher
+    }, {
+        time: '4 to 5PM',
+        date: '13th March',
+        name: 'Anand Verma',
+        topic: 'Fireside Chat',
+        image: anand
+    }, {
+        time: '10 to 11:15AM',
+        date: '14th March',
+        name: 'Vineet Barnwal',
+        topic: 'Succedding in Entrepreneurship',
+        image: vineet
+    }, {
+        time: '2 to 3PM',
+        date: '14th March',
+        name: 'Sanjeev Mohanty',
+        topic: 'Fireside Chat',
+        image: sanjeev
+    }, {
+        time: '3:15 to 4:15PM',
+        date: '14th March',
+        name: 'Viraj Sheth',
+        topic: 'Fireside Chat',
+    }, {
+        time: '7 to 8PM',
+        date: '14th March',
+        name: 'Aman Dhattarwal',
+        topic: 'Hustling in College',
+        image: amanDhat
+    },
+]
+
+
 export const Events = [
     {
         Name: "Bplan",
@@ -249,26 +307,22 @@ export const sponsors = [
         Link: "https://www.bisleri.com/",
         image: bisleri,
         type: "Hydration Partner"
-    },
-    {
+    }, {
         Name: "Jetbrains",
         Link: "https://www.jetbrains.com/",
         image: jetbrains,
         type: "Tooling Partner"
-    },
-    {
+    }, {
         Name: "Coding Blocks",
         Link: "https://codingblocks.com/",
         image: codingBlocks,
         type: "Coding Partner"
-    },
-    {
+    }, {
         Name: "Foreign Admits",
         Link: "https://foreignadmits.com/",
         image: foreignAdmits,
         type: "Career Mentorship Partner"
-    },
-    {
+    }, {
         Name: "Nikon",
         Link: "https://www.nikon.co.in/en_IN",
         image: Nikon,
@@ -279,87 +333,78 @@ export const sponsors = [
         Link: "https://sunobey.in/",
         image: sunobey,
         type: "Recreation Partner"
-    }, 
-
-    {
+    }, {
         Name: "Crowdera",
         Link: "https://gocrowdera.com/",
         image: crowdera,
         type: "Crowdfunding Partner"
-    },
-    {
+    }, {
         Name: "Pizza Hut",
-        Link: "",
+        Link: "https://www.pizzahut.co.in/",
         image: pizzaHut,
         type: "Pizza Partner"
-    },
-    {
+    }, {
         Name: "Skilling India",
-        Link: "",
+        Link: "https://skillingindia.in/",
         image: skillingIndia,
         type: "Online Skilling Partner"
-    }, 
-    {
+    }, {
         Name: "IDFC First Bank",
-        Link: "",
+        Link: "https://www.idfcfirstbank.com/",
         image: idfc,
         type: "Banking Partner"
-    },
-    {
+    }, {
         Name: "Barbeque Nation",
-        Link: "",
+        Link: "https://www.barbequenation.com/",
         image: bbqnation,
         type: "Barbeque Partner"
-    },
-    {
+    }, {
         Name: '100x Entrepreneurs',
         Link: "https://100xentrepreneur.com/",
         image: hundredx,
         type: "Venture Partner"
-    },
-    {
+    }, {
         Name: "Radio City",
-        Link: "",
+        Link: "https://www.radiocity.in/",
         image: radio,
         type: "Radio Partner"
-    },
-    {
+    }, {
         Name: "Startuped",
-        Link: "",
+        Link: "https://www.startuped.net/",
         image: startupEd,
         type: "Cloud Partner"
-    }, 
-    {
+    }, {
         Name: "Lemon School of Entrepreneurship",
-        Link: "",
+        Link: "https://lemon-school.com/",
         image: lemonSchool,
         type: "Innovation Partner"
-    }, 
-    {
+    }, {
         Name: "Boudhik Venture",
-        Link: "",
+        Link: "https://www.boudhikventures.com/",
         image: boudhik,
         type: "Intellectual Property Partner"
-    }, 
-    {
+    }, {
         Name: "Indian Academy of Entrepreneurship",
         Link: "https://www.iaeglocal.com/?v=980040635268",
         image: iae,
         type: "Innovation Partner"
-    }, 
-    {
+    }, {
         Name: "Lawyered",
-        Link: "",
+        Link: "https://www.lawyered.in/",
         image: lawyered,
         type: "Legal Partner"
-    }, 
-
+    }, {
+        Name: "Hiralal Groups",
+        Link: "",
+        image: hiralal,
+        type: "Industry Partner"
+    },
     {
         Name: "Code Warriors",
         Link: "https://codewarriors.in/",
         image: codeWarriors,
         type: "Platform Partner"
-    },  {
+    }, {
         Name: "Computer Solution Ranchi",
         Link: "https://computersolutionranchi.com/",
         image: computerSol,
@@ -396,23 +441,23 @@ export const sponsors = [
         Link: "",
         image: fcr,
         type: "Food Partner"
-    },  {
+    }, {
         Name: "Fyre Energy",
         Link: "https://www.fyreenergy.com/",
         image: fyre,
         type: "Energized By,"
-    },{
+    }, {
         Name: "Interview Buddy",
         Link: "https://interviewbuddy.in/",
         image: interviewBuddy,
         type: "Interview Partner"
-    }, 
+    },
     {
         Name: "Myways",
         Link: "https://myways.in/",
         image: myways,
         type: "Career Partner"
-    },  {
+    }, {
         Name: "Startup News",
         Link: "https://www.startupnews.fyi/",
         image: startupNews,
@@ -487,12 +532,17 @@ export const sponsors = [
         Link: "",
         image: homeflic,
         type: "Community Partner"
-    },  {
+    }, {
         Name: "Mera Event",
         Link: "",
         image: meraEvent,
         type: "Outreach Partner"
-    },  {
+    }, {
+        Name: "Radio City",
+        Link: "",
+        image: radio,
+        type: "Radio Partner"
+    }, {
         Name: "Startup times",
         Link: "",
         image: startupTimes,
@@ -507,10 +557,5 @@ export const sponsors = [
         Link: "",
         image: pepper,
         type: "Content Partner"
-    },  {
-        Name: "Hiralal Groups",
-        Link: "",
-        image: hiralal,
-        type: "Industry Partner"
-    }
+    },
 ]
