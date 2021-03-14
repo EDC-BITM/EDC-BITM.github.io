@@ -89,7 +89,7 @@ const LandingPage = () => {
                 </EventsContainer>
             </SectionContainer>
             <SectionContainer>
-                <Heading>Blue Hill Publication Authors & E-Books</Heading>
+                <Heading>Blue Hill Publications Authors & E-Books</Heading>
                 <EventsContainer>
                     <BlueHillBox href="https://www.facebook.com/abhinav.srivastav.3557">
                         <BlueHillAuthor src={abhinav} />

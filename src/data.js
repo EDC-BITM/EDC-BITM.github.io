@@ -441,7 +441,7 @@ export const sponsors = [
         image: duExpress,
         type: "Media Partner"
     }, {
-        Name: "Blue Hill Publication",
+        Name: "Blue Hill Publications",
         Link: "",
         image: blueHills,
         type: "Publication Partner"
