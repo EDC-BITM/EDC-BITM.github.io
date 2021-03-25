@@ -553,7 +553,7 @@ export const sponsors = [
         type: "Radio Partner"
     }, {
         Name: "Startup times",
-        Link: "",
+        Link: "https://startuptimes.net/",
         image: startupTimes,
         type: "Media Partner"
     }, {
