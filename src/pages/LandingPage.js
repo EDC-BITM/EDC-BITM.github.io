@@ -9,39 +9,23 @@ import { FaFacebookSquare, FaLinkedin } from "react-icons/fa"
 import { RiInstagramLine } from 'react-icons/ri'
 import logo from '../assets/logo.png'
 import edc from '../assets/edc.png'
-import angel from '../assets/sponsors/angel.png'
-import floxus from '../assets/sponsors/floxus.png'
-import ibHubs from '../assets/sponsors/ibHubs.png'
-import learningWhileTravelling from '../assets/sponsors/Learning_While_Travelling_TM_png.png'
-import tie from '../assets/sponsors/tie.png'
-import iic from '../assets/sponsors/iic.jpeg'
-import abhinav from '../assets/blueHills/Abhinav Srivastav/Abhinav Srivastav.jpg'
-import abhinavCover from '../assets/blueHills/Abhinav Srivastav/Book Cover.png'
-import dharani from '../assets/blueHills/Dharani Deiveegan/Dharani Deiveegan.jpg'
-import dharaniCover from '../assets/blueHills/Dharani Deiveegan/Dharani Deiveegan Book.png'
-import jose from '../assets/blueHills/Jose Varghese/Jose Varghese.jpg'
-import joseCover from '../assets/blueHills/Jose Varghese/Book Cover.png'
-import nisha from '../assets/blueHills/Nisha Anuka/Nisha Bora.jpg'
-import nishaCover from '../assets/blueHills/Nisha Anuka/Book Cover.png'
-import rohini from '../assets/blueHills/Rohini Vohra/Rohini Vohra.JPG'
-import rohiniCover from '../assets/blueHills/Rohini Vohra/Book Cover.png'
-import sandeep from '../assets/blueHills/Sandeep Sinha/Sandeep Sinha.jpg'
-import sandeepCover from '../assets/blueHills/Sandeep Sinha/Book Cover.png'
+import newLogo from '../assets/newLogo.png'
+import sponsorCollagePic from '../assets/sponsorCollage.jpg'
 const LandingPage = () => {
     return (
         <Container>
             <LandingSectionContainer>
                 <LandingHeading>
-                    The New <Span>Normal</Span>
+                    Believe to <Span>Achieve</Span>
                 </LandingHeading>
                 <LandingDescription>
                     EDC, BIT Mesra is back with its latest edition of east-India's largest <Span>E Summit</Span>.
                 </LandingDescription>
                 <LandingDate>
-                    MARCH 12-14, 2021 • ONLINE
+                    MARCH 11-13, 2022 • ONLINE
                 </LandingDate>
                 <LandingButtonContainer>
-                    <LandingButton href="https://www.runtheworld.today/app/invitation/20012" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton>
+                    <LandingButton href="" backColor="#fff" fontColor=" #0e0f25">Registeration opening soon</LandingButton>
                     <LandingButton href="https://discord.gg/paQM5tsfyb">Join Discord</LandingButton>
                 </LandingButtonContainer>
             </LandingSectionContainer>
@@ -56,8 +40,8 @@ const LandingPage = () => {
                 </Paragraph>
             </SectionContainer>
             <SectionContainer id="speakers">
-                <Heading>Speakers</Heading>
-                <Banner><LandingButton href="https://www.runtheworld.today/app/invitation/20012" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton></Banner>
+                <Heading>Previous Speakers</Heading>
+                {/* <Banner><LandingButton href="https://www.runtheworld.today/app/invitation/20012" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton></Banner> */}
                 <EventsContainer>
                     {
                         Speakers.map((speaker) => {
@@ -78,48 +62,19 @@ const LandingPage = () => {
                     }
                 </EventsContainer>
             </SectionContainer> */}
-            <SectionContainer id="events">
-                <Heading>Events</Heading>
-                <Banner><LandingButton href="https://dare2compete.com/f/e-summit21-entrepreneurship-development-cell-bit-mesra-10091" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton></Banner>
-
-                <EventsContainer>
-                    {Events.map((event) => {
+            {/* <SectionContainer id="events"> */}
+                {/* <Heading>Events</Heading> */}
+                {/* <Banner><LandingButton href="" backColor="#fff" fontColor=" #0e0f25">Registeration opening soon</LandingButton></Banner> */}
+                {/* <EventsContainer> */}
+                    {/* {Events.map((event) => {
                         return (<EventBox data={event} />)
-                    })}
-                </EventsContainer>
-            </SectionContainer>
-            <SectionContainer>
-                <Heading>Blue Hill Publications Authors & E-Books</Heading>
-                <EventsContainer>
-                    <BlueHillBox href="https://www.facebook.com/abhinav.srivastav.3557">
-                        <BlueHillAuthor src={abhinav} />
-                        <BlueHillImage src={abhinavCover} />
-                    </BlueHillBox>
-                    <BlueHillBox href="https://instagram.com/dharanideiveegan">
-                        <BlueHillAuthor src={dharani} />
-                        <BlueHillImage src={dharaniCover} />
-                    </BlueHillBox>
-                    <BlueHillBox href="mailto:jv.geologist@gmail.com">
-                        <BlueHillAuthor src={jose} />
-                        <BlueHillImage src={joseCover} />
-                    </BlueHillBox>
-                    <BlueHillBox href="https://www.instagram.com/qaynaat.t/">
-                        <BlueHillAuthor src={nisha} />
-                        <BlueHillImage src={nishaCover} />
-                    </BlueHillBox>
-                    <BlueHillBox href="mailto:rohiniflc2000@yahoo.com">
-                        <BlueHillAuthor src={rohini} />
-                        <BlueHillImage src={rohiniCover} />
-                    </BlueHillBox>
-                    <BlueHillBox href="https://instagram.com/sandy11oct72">
-                        <BlueHillAuthor src={sandeep} />
-                        <BlueHillImage src={sandeepCover} />
-                    </BlueHillBox>
-                </EventsContainer>
-            </SectionContainer>
+                    })} */}
+                {/* </EventsContainer> */}
+            {/* </SectionContainer> */}
             <SectionContainer id="sponsors">
-                <Heading>Sponsors</Heading>
-                <SponsorHeading>Title Sponsor</SponsorHeading>
+                <Heading>Previous Sponsors</Heading>
+                <Image src={sponsorCollagePic}></Image>
+                {/* <SponsorHeading>Title Sponsor</SponsorHeading>
                 <ImpSponsorContainer>
                     <ImpSponsorBox href='https://www.angelbroking.com/'>
                         <ImageContainer>
@@ -169,22 +124,18 @@ const LandingPage = () => {
                             return (<SponsorBox data={sponsor} />)
                         })
                     }
-                </EventsContainer>
+                </EventsContainer>*/}
             </SectionContainer>
             <SectionContainer>
                 <Heading>Contact</Heading>
                 <ContactContainer>
                     <ContactBox>
-                        <Name>+91-8674960047</Name>
-                        <Desc>Utkarsh Mishra</Desc>
+                        <Name>+91-9334228385</Name>
+                        <Desc>Sharwadi Shatank</Desc>
                     </ContactBox>
                     <ContactBox>
-                        <Name>+91-9123499293</Name>
-                        <Desc>Hrithik Shubham</Desc>
-                    </ContactBox>
-                    <ContactBox>
-                        <Name>+91-9082499159</Name>
-                        <Desc>Kshitij Yash</Desc>
+                        <Name>+91-8058140858</Name>
+                        <Desc>Ankur Gupta</Desc>
                     </ContactBox>
                     <ContactBox>
                         <Name>president.edc@bitmesra.ac.in</Name>
@@ -197,7 +148,7 @@ const LandingPage = () => {
                     <Social href="https://www.instagram.com/edcbitmesra/"><RiInstagramLine /></Social>
                 </SocialContainer>
                 <LogoContainer>
-                    <Logo src={logo} />
+                    <Logo src={newLogo} />
                     <Logo src={edc} />
                 </LogoContainer>
             </SectionContainer>
@@ -247,9 +198,10 @@ const ImageContainer = styled.div`
 `
 
 const Image = styled.img`
-    width:200px;
-    border-radius:5px;
-    padding:10px;
+    width:600px;
+    @media screen and (max-width:600px){
+        width:300px;
+    }
 `
 
 
@@ -501,5 +453,3 @@ const Logo = styled.img`
         width:300px;
     }
 `
-
-

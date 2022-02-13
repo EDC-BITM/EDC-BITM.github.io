@@ -1,13 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import logo from '../assets/logo.png'
+import newLogo from '../assets/newLogo.png'
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
     return (
         <NavContainer>
             <LogoContainer>
-                <Logo src={logo} />
+                <Logo src={newLogo} />
             </LogoContainer>
             <LinksContainer>
                 <NavLinkWeb>
