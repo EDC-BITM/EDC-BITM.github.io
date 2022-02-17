@@ -153,6 +153,7 @@ const LandingPage = () => {
                 </LogoContainer>
             </SectionContainer>
         </Container>
+
     )
 }
 
