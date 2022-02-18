@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import landingIllustration from '../assets/back.webp'
 import EventBox from '../components/EventBox'
@@ -11,7 +11,16 @@ import logo from '../assets/logo.png'
 import edc from '../assets/edc.png'
 import newLogo from '../assets/newLogo.png'
 import sponsorCollagePic from '../assets/sponsorCollage.jpg'
+import About from '../components/About'
 const LandingPage = () => {
+    const [show, setShow] = useState(false);
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 4000) {
+                setShow(true);
+            }
+        })
+    }, [])
     return (
         <Container>
             <LandingSectionContainer>
@@ -63,13 +72,13 @@ const LandingPage = () => {
                 </EventsContainer>
             </SectionContainer> */}
             {/* <SectionContainer id="events"> */}
-                {/* <Heading>Events</Heading> */}
-                {/* <Banner><LandingButton href="" backColor="#fff" fontColor=" #0e0f25">Registeration opening soon</LandingButton></Banner> */}
-                {/* <EventsContainer> */}
-                    {/* {Events.map((event) => {
+            {/* <Heading>Events</Heading> */}
+            {/* <Banner><LandingButton href="" backColor="#fff" fontColor=" #0e0f25">Registeration opening soon</LandingButton></Banner> */}
+            {/* <EventsContainer> */}
+            {/* {Events.map((event) => {
                         return (<EventBox data={event} />)
                     })} */}
-                {/* </EventsContainer> */}
+            {/* </EventsContainer> */}
             {/* </SectionContainer> */}
             <SectionContainer id="sponsors">
                 <Heading>Previous Sponsors</Heading>
@@ -151,6 +160,9 @@ const LandingPage = () => {
                     <Logo src={newLogo} />
                     <Logo src={edc} />
                 </LogoContainer>
+            </SectionContainer>
+            <SectionContainer>
+                {show && <About />}
             </SectionContainer>
         </Container>
     )
