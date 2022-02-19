@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import landingIllustration from '../assets/back.webp'
 import EventBox from '../components/EventBox'
 import SponsorBox from '../components/SponsorBox'
+import SummitEvents from "../components/SummitEvents"
 import SpeakerBox from '../components/SpeakerBox'
 import { Events, Speakers, sponsors, speakerSchedule } from "../data"
 import { FaFacebookSquare, FaLinkedin } from "react-icons/fa"
@@ -38,6 +39,18 @@ const LandingPage = () => {
                     We , the Entrepreneurship Development Cell at BIT, Mesra are there to bring forth an experience of changing times for you. With our mega annual fest E Summit'21 and its dynamic theme of 'A New Norm', we are all set to face the tough times with our confidence and spirits. So get ready and hop on for the experience of a lifetime. Be the hustle, turn the tables with creativity and dynamism.
                     Explore the boundless horizons of the trader in you.  Innovate, evaluate, analyze and inspire, as we believe in being the change.
                 </Paragraph>
+            </SectionContainer>
+            <SectionContainer id="summit-events">
+                <Heading>Events</Heading>
+                {/* <Banner><LandingButton href="https://www.runtheworld.today/app/invitation/20012" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton></Banner> */}
+                <EventsContainer>
+                    {
+                        Events.map((event,index) => {
+                            return (<SummitEvents data={{...event, reverse: index%2===1}} />)
+                        })
+                    }
+                </EventsContainer>
+                {/* <Banner>Will be updated soon...</Banner>  */}
             </SectionContainer>
             <SectionContainer id="speakers">
                 <Heading>Previous Speakers</Heading>
@@ -452,4 +465,12 @@ const Logo = styled.img`
     @media screen and (max-width:600px){
         width:300px;
     }
+`
+const SummitEventsContainer = styled.div`
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    border-radius:20px;
+    padding:${props => { if (props.back) { return '50px' } else { return "50px 0px 0px 0px" } }};
+    background-color:${props => { if (props.back) { return '#151629' } else { return "rgba(0,0,0,0)" } }};
 `
