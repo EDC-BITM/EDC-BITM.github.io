@@ -16,21 +16,20 @@ useEffect(() => {
 }, []);
 // determines when the style switches from two part (left and right) to single side view for mobile responsiveness.
 const unify = width<900;
-const LinkWrap = styled.a`
-    text-decoration:none;
+const LinkWrap = styled.div`
     display: flex;
     width: 80%;
     ${(!unify&&!props.data.reverse)?'&::after':'&::before'}{
         content: '';
         height:100%;
-        ${unify?'margin: 0 9.5%;':"margin: 0 9.5%;"}
+        ${unify?'margin: 0 0.5;':"margin: 0 9.5%;"}
         width: 1%;
         background-color: rgba(194, 78, 120,0.4);
     }
 `
     return (
-        <LinkWrap href={props.data.link} style={{justifyContent: unify?'flex-start':props.data.reverse? 'flex-end': 'flex-start'}}>
-            <MainContainer style={{width:unify?'80%':'40%', margin: unify?'5%':'0%'}}>
+        <LinkWrap  style={{justifyContent: unify?'flex-start':props.data.reverse? 'flex-end': 'flex-start'}}>
+            <MainContainer href={props.data.link} style={{width:unify?'75%':'40%', margin: unify?'5%':'0%'}}>
                 <ImageContainer>
                     <Image src={props.data.Image} />
                     <Overlay></Overlay>
@@ -45,7 +44,8 @@ const LinkWrap = styled.a`
     )
 }
 
-const MainContainer = styled.div`
+const MainContainer = styled.a`
+    text-decoration:none;
     background-color:#151629;
     border-radius:20px;
     padding:30px;
