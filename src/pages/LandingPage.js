@@ -4,6 +4,7 @@ import landingIllustration from '../assets/back.webp'
 import EventBox from '../components/EventBox'
 import SponsorBox from '../components/SponsorBox'
 import SpeakerBox from '../components/SpeakerBox'
+import Carousel2 from '../components/carousel2/Carousel2'
 import { Events, Speakers, sponsors, speakerSchedule } from "../data"
 import { FaFacebookSquare, FaLinkedin } from "react-icons/fa"
 import { RiInstagramLine } from 'react-icons/ri'
@@ -126,6 +127,15 @@ const LandingPage = () => {
                     }
                 </EventsContainer>*/}
             </SectionContainer>
+
+            <SectionContainer>
+            <Heading>Quotations</Heading>
+            <EventsContainer>
+                <Carousel2 />
+            </EventsContainer>
+            
+            </SectionContainer>
+
             <SectionContainer>
                 <Heading>Contact</Heading>
                 <ContactContainer>
