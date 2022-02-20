@@ -118,11 +118,11 @@ function Carousel() {
   const length = Speakers.length;
 
   const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
+    setCurrent(current === length - 3 ? 0 : current + 1);
   };
 
   const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
+    setCurrent(current === 0 ? length - 3 : current - 1);
   };
   return (
     <section className="slider">
@@ -131,18 +131,19 @@ function Carousel() {
       {Speakers.map((speaker, index) => {
         return (
           <div className="carasoul">
-            <div className={index === (current )%length ? "slide-active inactive" : "slide"} >
-              {index === current && <SpeakerBox data={speaker} />}
+            
+            <div className={index === (current)%length ? "slide-active inactive" : "slide"} >
+              {index === (current)%length && <SpeakerBox data={speaker} />}
             </div>
-            <div
-              className={index === (current + 1)%length ? "slide-active" : "slide"}
-              
-            >
+            
+            <div className={index === (current + 1)%length ? "slide-active" : "slide"}>
               {index === (current + 1)%length && <SpeakerBox data={speaker} />}
             </div>
+
             <div className={index === (current + 2)%length ? "slide-active inactive" : "slide"}>
               {index === (current + 2)%length && <SpeakerBox data={speaker} />}
             </div>
+          
           </div>
         );
       })}

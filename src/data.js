@@ -240,6 +240,13 @@ export const Events = [
 
 export const Speakers = [
     {
+        Name: "Richa Shrivastava",
+        Desc: "Managing Partner, Maker's Asylum ",
+        Image: richa,
+        link: "https://www.linkedin.com/in/shrivastavaricha/",
+        alumni: 'BIT Mesra alumnus(2006-10)'
+    },
+    {
         Name: "Aman Dhattarwal",
         Desc: "Youtuber",
         Image: amanDhat,
@@ -301,6 +308,13 @@ export const Speakers = [
         Image: richa,
         link: "https://www.linkedin.com/in/shrivastavaricha/",
         alumni: 'BIT Mesra alumnus(2006-10)'
+    },
+    {
+        Name: "Aman Dhattarwal",
+        Desc: "Youtuber",
+        Image: amanDhat,
+        link: "https://www.linkedin.com/in/dhattarwalaman/",
+        alumni: ''
     },
 
 ]

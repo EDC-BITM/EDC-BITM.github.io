@@ -10,9 +10,10 @@
 .right-arrow {
   position: absolute;
   top: 50%;
-  right: -100px;
+  right: -250px;
   font-size: 3rem;
-  color: #fff;
+  /* color: #fff; */
+  color: #a25e97;
   z-index: 10;
   cursor: pointer;
   user-select: none;
@@ -20,9 +21,10 @@
 .left-arrow {
   position: absolute;
   top: 50%;
-  left: -100px;
+  left: -250px;
   font-size: 3rem;
-  color: #fff;
+  /* color: #fff; */
+  color: #a25e97;
   z-index: 10;
   cursor: pointer;
   user-select: none;
@@ -47,8 +49,12 @@
   }
   .left-arrow {
     color: #a25e97;
+    left: -60px;
+    font-size: 2rem;
   }
   .right-arrow {
     color: #a25e97;
+    right: -60px;
+    font-size: 2rem;
   }
 }
