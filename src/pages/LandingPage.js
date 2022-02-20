@@ -222,7 +222,7 @@ const LandingSectionContainer = styled.div`
 `
 
 const LandingHeading = styled.h1`
-     color:#fff;
+     color:#70E0F4;
      font-size:126px;
      text-align:center;
      padding:50px 0px 10px 0px;
@@ -235,7 +235,7 @@ const LandingHeading = styled.h1`
 `
 
 const Span = styled.span`
-    background-image: linear-gradient(to right, #f76c6c, #e8637c, #d45f8a, #bc5e93, #a25e97);
+    background-image: linear-gradient(to right, #3232FE, #3232FE, #2D2DE4, #2424B6, #19197F);
     -webkit-background-clip: text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
@@ -258,7 +258,7 @@ const LandingDescription = styled.p`
 `
 
 const LandingDate = styled.h3`
-    background-image: linear-gradient(to right, #f76c6c, #e8637c, #d45f8a, #bc5e93, #a25e97);
+    background-image: linear-gradient(to right, #1CE1CE, #32E4D2, #5AE9DB, #8BEFE5, #B9F5EF);
     -webkit-background-clip: text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
@@ -323,7 +323,7 @@ const SectionContainer = styled.div`
 
 const Heading = styled.h1`
     display:block;
-    background-image: linear-gradient(to right, #f76c6c, #e8637c, #d45f8a, #bc5e93, #a25e97);
+    background-image: linear-gradient(to right, #1CE1CE, #32E4D2, #5AE9DB, #8BEFE5, #B9F5EF);
     -webkit-background-clip: text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
@@ -412,7 +412,7 @@ const Name = styled.h3`
 `
 
 const Desc = styled.h5`
-    background-image: linear-gradient(to right, #f76c6c, #e8637c, #d45f8a, #bc5e93, #a25e97);
+    background-image: linear-gradient(to right, #1CE1CE, #32E4D2, #5AE9DB, #8BEFE5, #B9F5EF);
     -webkit-background-clip: text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
