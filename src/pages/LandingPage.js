@@ -11,6 +11,7 @@ import logo from '../assets/logo.png'
 import edc from '../assets/edc.png'
 import newLogo from '../assets/newLogo.png'
 import sponsorCollagePic from '../assets/sponsorCollage.jpg'
+import Carousel from '../components/carousel/Carousel'
 const LandingPage = () => {
     return (
         <Container>
@@ -43,11 +44,7 @@ const LandingPage = () => {
                 <Heading>Previous Speakers</Heading>
                 {/* <Banner><LandingButton href="https://www.runtheworld.today/app/invitation/20012" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton></Banner> */}
                 <EventsContainer>
-                    {
-                        Speakers.map((speaker) => {
-                            return (<SpeakerBox data={speaker} />)
-                        })
-                    }
+                   <Carousel/>
                 </EventsContainer>
                 {/* <Banner>Will be updated soon...</Banner>  */}
             </SectionContainer>
