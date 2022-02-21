@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import landingIllustration from '../assets/back.webp';
@@ -13,6 +14,8 @@ import edc from '../assets/edc.png';
 import newLogo from '../assets/newLogo.png';
 import sponsorCollagePic from '../assets/sponsorCollage.jpg';
 import About from '../components/About';
+import Carousel from '../components/carousel/Carousel';
+import Carousel2 from '../components/carousel2/Carousel2'
 
 const LandingPage = () => {
   const [show, setShow] = useState(false);
@@ -59,9 +62,7 @@ const LandingPage = () => {
         <Heading>Previous Speakers</Heading>
         {/* <Banner><LandingButton href="https://www.runtheworld.today/app/invitation/20012" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton></Banner> */}
         <EventsContainer>
-          {Speakers.map((speaker) => {
-            return <SpeakerBox data={speaker} />;
-          })}
+          <Carousel/>
         </EventsContainer>
         {/* <Banner>Will be updated soon...</Banner>  */}
       </SectionContainer>
@@ -140,6 +141,13 @@ const LandingPage = () => {
                     }
                 </EventsContainer>*/}
       </SectionContainer>
+      <SectionContainer>
+            <Heading>Speaker insights</Heading>
+            <EventsContainer>
+                <Carousel2 />
+            </EventsContainer>
+            
+            </SectionContainer>
       <SectionContainer>
         <Heading>Contact</Heading>
         <ContactContainer>
