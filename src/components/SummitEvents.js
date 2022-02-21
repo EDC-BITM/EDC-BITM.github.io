@@ -58,7 +58,7 @@ const SummitEvents = (props) => {
                     <Register href={props.data.link}>Coming Soon</Register> */}
 
           {props.data.link ? (
-            <>
+            <> 
               <KnowMore href={props.data.link}>Know More</KnowMore>
               <Register href={props.data.link}>Register</Register>
             </>

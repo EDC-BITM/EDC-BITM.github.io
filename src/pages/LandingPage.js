@@ -5,7 +5,7 @@ import EventBox from '../components/EventBox';
 import SponsorBox from '../components/SponsorBox';
 import SpeakerBox from '../components/SpeakerBox';
 import SummitEvents from '../components/SummitEvents';
-import { Events, Speakers, sponsors, speakerSchedule } from '../data';
+import { newEvents,Events, Speakers, sponsors, speakerSchedule } from '../data';
 import { FaFacebookSquare, FaLinkedin } from 'react-icons/fa';
 import { RiInstagramLine } from 'react-icons/ri';
 import logo from '../assets/logo.png';
@@ -35,8 +35,8 @@ const LandingPage = () => {
         </LandingDescription>
         <LandingDate>MARCH 11-13, 2022 • ONLINE</LandingDate>
         <LandingButtonContainer>
-          <LandingButton href='' backColor='#fff' fontColor=' #0e0f25'>
-            Registeration opening soon
+          <LandingButton href='https://dare2compete.com/festival/e-summit22-birla-institute-of-technology-bit-mesra-ranchi-20883' backColor='#fff' fontColor=' #0e0f25'>
+            Register Now
           </LandingButton>
           <LandingButton href='https://discord.gg/paQM5tsfyb'>
             Join Discord
@@ -48,7 +48,7 @@ const LandingPage = () => {
       <SectionContainer>
         <Heading>Event Timeline</Heading>
         <EventsContainer>
-          {Events.map((event, index) => {
+          {newEvents.map((event, index ) => {
             return (
               <SummitEvents data={{ ...event, reverse: index % 2 === 1 }} />
             );
