@@ -30,7 +30,7 @@
   user-select: none;
 }
 .slide {
-  opacity: 0;
+  opacity: 1;
   transition-duration: 1s ease;
 }
 .slide-active {
@@ -38,7 +38,7 @@
   transition-duration: 1s;
 }
 .inactive {
-  opacity: 20%;
+  opacity: 0.5;
   pointer-events: none;
   transform: scale(0.8);
 }
@@ -49,12 +49,12 @@
   }
   .left-arrow {
     color: #a25e97;
-    left: -60px;
+    left: -70px;
     font-size: 2rem;
   }
   .right-arrow {
     color: #a25e97;
-    right: -60px;
+    right: -70px;
     font-size: 2rem;
   }
 }
