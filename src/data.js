@@ -251,63 +251,72 @@ export const Speakers = [
         Desc: "Youtuber",
         Image: amanDhat,
         link: "https://www.linkedin.com/in/dhattarwalaman/",
-        alumni: ''
+        alumni: '',
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         Name: "Anand Verma",
         Desc: "Founder- fasal, Forbes 30 under 30",
         Image: anand,
         link: "https://www.linkedin.com/in/ananda-verma-a8b42b1b/",
-        alumni: ''
+        alumni: '',
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         Name: "Sanjeev Mohanty",
         Desc: "MD- Levi Strauss & Co.",
         Image: sanjeev,
         link: "https://www.linkedin.com/in/sanjeevmohanty/",
-        alumni: ''
+        alumni: '',
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         Name: "Abhinav Sinha",
         Desc: "Co-founder- Eko",
         Image: abhinav,
         link: "https://www.linkedin.com/in/absinha/",
-        alumni: 'BIT Mesra alumnus(1999-03)'
+        alumni: 'BIT Mesra alumnus(1999-03)',
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         Name: "Pawan Kumar Rai",
         Desc: "Co-founder- Finshots, Ditto",
         Image: pawan,
         link: "https://www.linkedin.com/in/pawan-kumar-rai-2a437a61/",
-        alumni: 'BIT Mesra alumnus(2010-14)'
+        alumni: 'BIT Mesra alumnus(2010-14)',
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         Name: "Vineet Barnwal",
         Desc: "India's leading campus trainer & coach",
         Image: vineet,
         link: "https://www.linkedin.com/in/vineet-barnwal-1019269/",
-        alumni: 'BIT Mesra alumnus(2000-04)'
+        alumni: 'BIT Mesra alumnus(2000-04)',
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         Name: "Ayush Jaiswal",
         Desc: "Founder- Pesto",
         Image: ayush,
         link: "https://www.linkedin.com/in/aayushjaiswal07/",
-        alumni: ''
+        alumni: '',
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         Name: "Sridher Jeyachandran",
         Desc: "Co-founder- Crio.do",
         Image: sridher,
         link: "https://www.linkedin.com/in/sridher-jeyachandran/",
-        alumni: ''
+        alumni: '',
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         Name: "Richa Shrivastava",
         Desc: "Managing Partner, Maker's Asylum ",
         Image: richa,
         link: "https://www.linkedin.com/in/shrivastavaricha/",
-        alumni: 'BIT Mesra alumnus(2006-10)'
+        alumni: 'BIT Mesra alumnus(2006-10)',
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         Name: "Aman Dhattarwal",
@@ -317,6 +326,41 @@ export const Speakers = [
         alumni: ''
     },
 
+]
+
+export const insights = [
+    {
+        Name: "Aman Dhattarwal",
+        Desc: "Youtuber",
+        Image: amanDhat,
+        link: "https://www.linkedin.com/in/dhattarwalaman/",
+        alumni: '',
+        comment: "If you don't sacrifice for what you want, what you want becomes the sacrifice."
+    },
+    {
+        Name: "Pawan Kumar Rai",
+        Desc: "Co-founder- Finshots, Ditto",
+        Image: pawan,
+        link: "https://www.linkedin.com/in/pawan-kumar-rai-2a437a61/",
+        alumni: 'BIT Mesra alumnus(2010-14)',
+        comment: "When you start something, you fall in love with yourself and your idea and you assume everything else. Find people who can say no to you."
+    },
+    {
+        Name: "Ayush Jaiswal",
+        Desc: "Founder- Pesto",
+        Image: ayush,
+        link: "https://www.linkedin.com/in/aayushjaiswal07/",
+        alumni: '',
+        comment: "Others will call you street smart, but all you are is a logical person with clarity."
+    },
+    {
+        Name: "Richa Shrivastava",
+        Desc: "Managing Partner, Maker's Asylum ",
+        Image: richa,
+        link: "https://www.linkedin.com/in/shrivastavaricha/",
+        alumni: 'BIT Mesra alumnus(2006-10)',
+        comment: "If you are really passionate about the fact that this is the idea that I'm going to make it work, you will make it happen even without capital and other things, you will make things work in a way that it will have revenue streams."
+    },
 ]
 
 export const sponsors = [

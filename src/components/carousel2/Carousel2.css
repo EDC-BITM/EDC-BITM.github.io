@@ -1,0 +1,46 @@
+.slider2 {
+    position: relative;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right-arrow2 {
+    position: absolute;
+    top: 50%;
+    right: -64px;
+    font-size: 3rem;
+    color: #a25e97;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  .left-arrow2 {
+    position: absolute;
+    top: 50%;
+    left: -64px;
+    font-size: 3rem;
+    color: #a25e97;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  .slide2 {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  .slide-active2 {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
+
+  @media screen and (max-width: 600px) {
+      .left-arrow2 {
+          font-size: 2rem;
+      }
+      .right-arrow2 {
+          font-size: 2rem;
+      }
+  }
