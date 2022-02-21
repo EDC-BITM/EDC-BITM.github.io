@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Quotation = (props) => {
-  return (
+  return ( 
     <>
       <MainContainer>
         <Card>

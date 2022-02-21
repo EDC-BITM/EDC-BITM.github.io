@@ -314,6 +314,41 @@ export const Speakers = [
 
 ]
 
+export const insights = [
+    {
+        Name: "Aman Dhattarwal",
+        Desc: "Youtuber",
+        Image: amanDhat,
+        link: "https://www.linkedin.com/in/dhattarwalaman/",
+        alumni: '',
+        comment: "If you don't sacrifice for what you want, what you want becomes the sacrifice."
+    },
+    {
+        Name: "Pawan Kumar Rai",
+        Desc: "Co-founder- Finshots, Ditto",
+        Image: pawan,
+        link: "https://www.linkedin.com/in/pawan-kumar-rai-2a437a61/",
+        alumni: 'BIT Mesra alumnus(2010-14)',
+        comment: "When you start something, you fall in love with yourself and your idea and you assume everything else. Find people who can say no to you."
+    },
+    {
+        Name: "Ayush Jaiswal",
+        Desc: "Founder- Pesto",
+        Image: ayush,
+        link: "https://www.linkedin.com/in/aayushjaiswal07/",
+        alumni: '',
+        comment: "Others will call you street smart, but all you are is a logical person with clarity."
+    },
+    {
+        Name: "Richa Shrivastava",
+        Desc: "Managing Partner, Maker's Asylum ",
+        Image: richa,
+        link: "https://www.linkedin.com/in/shrivastavaricha/",
+        alumni: 'BIT Mesra alumnus(2006-10)',
+        comment: "If you are really passionate about the fact that this is the idea that I'm going to make it work, you will make it happen even without capital and other things, you will make things work in a way that it will have revenue streams."
+    },
+]
+
 export const sponsors = [
     {
         Name: "Bisleri",

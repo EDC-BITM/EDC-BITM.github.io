@@ -129,7 +129,7 @@ const LandingPage = () => {
             </SectionContainer>
 
             <SectionContainer>
-            <Heading>Quotations</Heading>
+            <Heading>Speaker insights</Heading>
             <EventsContainer>
                 <Carousel2 />
             </EventsContainer>
