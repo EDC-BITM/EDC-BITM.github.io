@@ -145,6 +145,44 @@ export const speakerSchedule = [
     },
 ]
 
+export const newEvents = [
+    {
+        Name: "Unicorn League",
+        Desc: "B-Plan, Road to the billion",
+        Image: bplan,
+        link: "https://dare2compete.com/competition/unicorn-league-b-plan-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-266181"
+    },
+    {
+        Name: "Bizalytics",
+        Desc: "Statistics to strategy",
+        Image: moneyball,
+        link: "https://dare2compete.com/p/bizalytics-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-266128"
+    },
+    {
+        Name: "Under Pressure",
+        Desc: "Can you handle the heat?",
+        Image: poker,
+        link: "https://dare2compete.com/competition/under-pressure-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-265351"
+    },
+    {
+        Name: "Pentagon",
+        Desc: "The startup think tank",
+        Image: boardroom,
+        link: "https://dare2compete.com/competition/the-pentagon-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-266285"
+    },
+    {
+        Name: "Pennywise",
+        Desc: "Risk hai to ishq hai",
+        Image: monopoly,
+        link: "https://dare2compete.com/competition/pennywise-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-266160"
+    },
+    {
+        Name: "Spike Rush",
+        Desc: "Let the game begin",
+        Image: esport,
+        link: "https://dare2compete.com/creative-cultural-event/spike-rush-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-266449"
+    },
+]
 
 export const Events = [
     {

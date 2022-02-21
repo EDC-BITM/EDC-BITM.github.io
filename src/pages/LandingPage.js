@@ -5,7 +5,8 @@ import landingIllustration from '../assets/back.webp';
 import EventBox from '../components/EventBox';
 import SponsorBox from '../components/SponsorBox';
 import SpeakerBox from '../components/SpeakerBox';
-import { Events, Speakers, sponsors, speakerSchedule } from '../data';
+import SummitEvents from '../components/SummitEvents';
+import { newEvents,Events, Speakers, sponsors, speakerSchedule } from '../data';
 import { FaFacebookSquare, FaLinkedin } from 'react-icons/fa';
 import { RiInstagramLine } from 'react-icons/ri';
 import logo from '../assets/logo.png';
@@ -37,8 +38,8 @@ const LandingPage = () => {
         </LandingDescription>
         <LandingDate>MARCH 11-13, 2022 • ONLINE</LandingDate>
         <LandingButtonContainer>
-          <LandingButton href='' backColor='#fff' fontColor=' #0e0f25'>
-            Registeration opening soon
+          <LandingButton href='https://dare2compete.com/festival/e-summit22-birla-institute-of-technology-bit-mesra-ranchi-20883' backColor='#fff' fontColor=' #0e0f25'>
+            Register Now
           </LandingButton>
           <LandingButton href='https://discord.gg/paQM5tsfyb'>
             Join Discord
@@ -46,16 +47,17 @@ const LandingPage = () => {
         </LandingButtonContainer>
       </LandingSectionContainer>
 
-      {/* <SectionContainer>
-                <Heading>Theme</Heading>
-                <Paragraph>
-                    Unprecedented times call for  unshakeable roots and an unstinted enthusiasm. Entrepreneurship is the paradigm that never goes down, never fails in the face if adversity, or so the pandemic has shown to us.
-                    It is time to embrace the unknown realms, the unsaid virtuality and the new developments. <br /><br />
-                    We , the Entrepreneurship Development Cell at BIT, Mesra are there to bring forth an experience of changing times for you. With our mega annual fest E Summit'21 and its dynamic theme of 'A New Norm', we are all set to face the tough times with our confidence and spirits. So get ready and hop on for the experience of a lifetime. Be the hustle, turn the tables with creativity and dynamism.
-                    Explore the boundless horizons of the trader in you.  Innovate, evaluate, analyze and inspire, as we believe in being the change.
-                </Paragraph>
-            </SectionContainer> */}
       <SectionContainer>{show && <About />}</SectionContainer>
+      <SectionContainer>
+        <Heading>Event Timeline</Heading>
+        <EventsContainer>
+          {newEvents.map((event, index ) => {
+            return (
+              <SummitEvents data={{ ...event, reverse: index % 2 === 1 }} />
+            );
+          })}
+        </EventsContainer>
+      </SectionContainer>
       <SectionContainer id='speakers'>
         <Heading>Previous Speakers</Heading>
         {/* <Banner><LandingButton href="https://www.runtheworld.today/app/invitation/20012" backColor="#fff" fontColor=" #0e0f25">Register</LandingButton></Banner> */}
@@ -533,4 +535,24 @@ const Logo = styled.img`
   @media screen and (max-width: 600px) {
     width: 300px;
   }
+`;
+const SummitEventsContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  padding: ${(props) => {
+    if (props.back) {
+      return '50px';
+    } else {
+      return '50px 0px 0px 0px';
+    }
+  }};
+  background-color: ${(props) => {
+    if (props.back) {
+      return '#151629';
+    } else {
+      return 'rgba(0,0,0,0)';
+    }
+  }};
 `;
