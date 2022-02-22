@@ -50,7 +50,7 @@ const LandingPage = () => {
       <SectionContainer>{show && <About />}</SectionContainer>
       <SectionContainer>
         <Heading>Event Timeline</Heading>
-        <EventsContainer>
+        <EventsContainer id="events">
           {newEvents.map((event, index ) => {
             return (
               <SummitEvents data={{ ...event, reverse: index % 2 === 1 }} />
