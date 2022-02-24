@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Particles from "react-tsparticles";
+import  SponsorLogo from "../assets/sponsors/angel.png"
 const ParticleLogo = () => {
   const particlesInit = (main) => {
     console.log(main);
@@ -12,28 +13,29 @@ const ParticleLogo = () => {
     <>
       <Container>
         <HeadingWrapper>
-          <Sponsor>Angle<SponsorSpan>One</SponsorSpan></Sponsor>
-        <Heading>E-SUMMIT'22</Heading>
+          <Sponsor>
+            <img height='50px' width='100px' src={SponsorLogo} alt="angel-one logo" />
+          </Sponsor>
+          <Heading>E-SUMMIT'22</Heading>
+          <Tagline>Believe To Achieve</Tagline>
         </HeadingWrapper>
         <Logo>
           <Particles
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
+            width="100%"
+            height="100%"
+            className="particle-class"
+            canvasClassName="tsparticles-canvas-el"
             options={{
-              width: {
-                value: 1000,
+              fullScreen: {
+                zIndex: 100,
+                enable: false,
               },
               detectRetina: false,
               interactivity: {
                 events: {
-                  onClick: {
-                    mode: "push",
-                  },
-                  onDiv: {
-                    selectors: "#repulse-div",
-                    mode: "repulse",
-                  },
                   onHover: {
                     enable: true,
                     mode: "bubble",
@@ -41,7 +43,7 @@ const ParticleLogo = () => {
                 },
                 modes: {
                   bubble: {
-                    distance: 40,
+                    distance: 50,
                     duration: 2,
                     opacity: 8,
                     size: 6,
@@ -50,18 +52,18 @@ const ParticleLogo = () => {
                     distance: 400,
                   },
                   slow: {
-                    factor: 5,
+                    factor: 1,
                     radius: 0,
                   },
                 },
               },
               particles: {
                 color: {
-                  value: "#FFA500",
+                  value: "#ffffff",
                 },
                 links: {
                   color: {
-                    value: "#FFA500",
+                    value: "#ffffff",
                   },
                   distance: 30,
                   enable: true,
@@ -82,18 +84,18 @@ const ParticleLogo = () => {
                     right: "bounce",
                     top: "bounce",
                   },
-                  speed: 0.1,
+                  speed: 0.02,
                 },
                 number: {
                   density: {
                     area: 2000,
-                  },                            
+                  },
                   value: 100,
                 },
                 opacity: {
                   value: {
-                    min: 0.5,
-                    max: 0.8,
+                    min: 0.05,
+                    max: 0.4,
                   },
                   animation: {
                     enable: true,
@@ -101,9 +103,12 @@ const ParticleLogo = () => {
                   },
                 },
                 size: {
+                  random: {
+                    enable: true,
+                  },
                   value: 1,
                   animation: {
-                    speed: 0,
+                    speed: 40,
                     minimumValue: 0.1,
                   },
                 },
@@ -124,12 +129,12 @@ const ParticleLogo = () => {
                   arrangement: "equidistant",
                 },
                 move: {
-                  radius: 10,
+                  radius: 1,
                   type: "path",
                 },
                 scale: 0.5,
                 type: "inline",
-                url: "https://res.cloudinary.com/hevently-sarang/image/upload/v1645087891/vector1_br63e2.svg",
+                url: "https://res.cloudinary.com/hevently-sarang/image/upload/v1645524153/vector1_djyr4t.svg",
               },
             }}
           />
@@ -145,6 +150,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 `;
 const Heading = styled.h1`
   color: #fff;
@@ -152,15 +158,17 @@ const Heading = styled.h1`
 `;
 
 const Logo = styled.div`
-`;
-
-const HeadingWrapper = styled.div`
-`;
-
-const Sponsor = styled.h4`
   color: #fff;
 `;
 
-const SponsorSpan = styled.span`
-  color: #FFA500;
+const HeadingWrapper = styled.div``;
+
+const Sponsor = styled.div`
 `;
+
+const Tagline=styled.h6`
+color:#fff;
+font-size:1.2rem;
+text-align:right;
+margin-right:4rem;
+`
