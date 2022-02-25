@@ -3,11 +3,13 @@ import React from 'react'
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import LandingPage from './pages/LandingPage'
+import NavbarRes from './components/NavbarRes';
+
 const App = () => {
   return (
     <Router>
       <div>
-        <Navbar />
+      <NavbarRes/>
         <Switch>
           <Route path="/edc-home" component={() => {
             window.location.href = 'https://edcbitmesra.in/';
