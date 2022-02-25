@@ -153,6 +153,12 @@ export const newEvents = [
         link: "https://dare2compete.com/competition/unicorn-league-b-plan-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-266181"
     },
     {
+        Name: "IPL Kickoff's",
+        Desc: "Going once, Going Twice, Sold!",
+        Image: iplAuction,
+        link: "https://dare2compete.com/creative-cultural-event/ipl-kickoffs-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-267103"
+    },
+    {
         Name: "Bizalytics",
         Desc: "Statistics to strategy",
         Image: moneyball,
@@ -177,10 +183,34 @@ export const newEvents = [
         link: "https://dare2compete.com/competition/pennywise-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-266160"
     },
     {
+        Name: "The Fued",
+        Desc: "The thrill awaits your presence",
+        Image: pitch,
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSc3kXMf-3nOC5otnvjm8N8VKco4Dj4Y3wKvlp10zJ728mHBdw/viewform"
+    },
+    {
+        Name: "Sahifolio Challenge",
+        Desc: "Presented by sahicoin",
+        Image: crypto,
+        link: "https://dare2compete.com/competition/sahifolio-challenge-a-crypto-trading-competition-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-268537"
+    },
+    {
+        Name: "Bellagio",
+        Desc: "All or nothing (Online Poker)",
+        Image: houseofcards,
+        link: "https://dare2compete.com/creative-cultural-event/bellagio-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-267773"
+    },
+    {
         Name: "Spike Rush",
         Desc: "Let the game begin",
         Image: esport,
         link: "https://dare2compete.com/creative-cultural-event/spike-rush-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-266449"
+    },
+    {
+        Name: "OG Karts",
+        Desc: "Keep calm and race on",
+        Image: footballAuction,
+        link: "https://docs.google.com/forms/d/e/1FAIpQLScYgMvUHC_xY-7kgdSgq2eRr750oN9RFsMvVjXXM0Y0na43mg/viewform"
     },
 ]
 
