@@ -36,6 +36,10 @@ const MainContainer = styled.div`
     &:hover{
         border:2px solid rgba(247, 108, 108,1);
     }
+    @media screen and (max-width: 1002px) {
+        padding:20px;
+        margin:10px;
+    }
 `
 
 const ImageContainer = styled.div`
@@ -53,6 +57,9 @@ const ImageContainer = styled.div`
 const Image = styled.img`
     width:250px;
     filter:grayscale(80%);
+    @media screen and (max-width: 1002px) {
+        width:180px;
+    }
 `
 
 const Overlay = styled.div`
@@ -81,6 +88,9 @@ const Name = styled.h3`
     text-align:center;
     font-size:28px;
     text-decoration:none;
+    @media screen and (max-width: 1002px) {
+        font-size:24px;
+    }
 `
 
 const Designation = styled.p`
@@ -89,4 +99,7 @@ const Designation = styled.p`
     text-decoration:none;
     color:${props => { if (props.special) { return '#f76c6c' } else { return "#fff" } }};
     padding-top:${props => { if (props.padded) { return '5px' } else { return "0px" } }};
+    @media screen and (max-width: 1002px) {
+        font-size:12px;
+    }
 `

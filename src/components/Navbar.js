@@ -3,13 +3,15 @@ import styled from 'styled-components'
 import logo from '../assets/logo.png'
 import newLogo from '../assets/newLogo.png'
 import { HashLink as Link } from 'react-router-hash-link';
+import { FaBars } from 'react-icons/fa';
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <NavContainer>
             <LogoContainer>
                 <Logo src={newLogo} />
             </LogoContainer>
+            <Bars onClick={toggle}/>
             <LinksContainer>
                 <NavLinkWeb>
                     <LinkWeb to='edc-home'>Home</LinkWeb>
@@ -112,6 +114,19 @@ const LinkWebSpecial = styled(Link)`
         transition:background-color 0.4s;
     }
 `
+const Bars = styled(FaBars)`
+  display: none;
+  color: #fff;
+  @media screen and (max-width: 850px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 75%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+`
 
 // const BurgerContainer = styled.div`
 //     display:flex;
@@ -121,7 +136,7 @@ const LinkWebSpecial = styled(Link)`
 //     display:none;
 
 //     @media screen and (max-width:850px){
-//         display:flex;
+//         display:flex
 //         margin-top:0px;
 //     }
 // `
