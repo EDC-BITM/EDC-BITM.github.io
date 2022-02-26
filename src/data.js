@@ -32,7 +32,6 @@ import codeWarriors from './assets/sponsors/code-warriors.png'
 import codingBlocks from './assets/sponsors/coding-blocks.png'
 import codingal from './assets/sponsors/Codingal.svg'
 import computerSol from './assets/sponsors/Computer-Solution.jpeg'
-import custkart from './assets/sponsors/CUSTKART_1.png'
 import d2c from './assets/sponsors/d2c.jpg'
 import duExpress from './assets/sponsors/DU-Express.png'
 import fcr from './assets/sponsors/fcr.jpeg'
@@ -85,7 +84,296 @@ import creatorOfProducts from './assets/sponsors/creatorOfProducts.png'
 import duBeat from './assets/sponsors/duBeat.png'
 import womenInBusiness from './assets/sponsors/womenInBusiness.png'
 import amal from './assets/sponsors/amal.jpeg'
+//NewSponsors
+import YouthIncorporated from './assets/newSponsors/YouthIncorporated.png'
+import InterviewBuddy from './assets/newSponsors/InterviewBuddy.png'
+import DUBeat from './assets/newSponsors/DU Beat - An Independent Student Newspaper.jpg'
+import StartupStartkaro from './assets/newSponsors/startupstartkaro-logo.png'
+import Finstreet from './assets/newSponsors/FinSTREET.jpg'
+import CampusTimePune from './assets/newSponsors/campus time pune.png'
+import MFL_Educlub from './assets/newSponsors/MFL Educlub.png'
+import LearningWhileTravelling from './assets/newSponsors/Learning While Travelling.png'
+import GrowthSchool from './assets/newSponsors/GrowthSchool.png'
+import PokerStreet from './assets/newSponsors/Pokerstreet.jpg'
+import Dare2Compete from './assets/newSponsors/dare2Compete.jpg'
+import BlueHillPublication from './assets/newSponsors/BlueHillPublication.png'
+import HPCL from './assets/newSponsors/HPCL.jpg'
+import YesStartups from './assets/newSponsors/YESSTARTUP.png'
+import Edufabrica from './assets/newSponsors/EDUFABRICA.jpeg'
+import AngelOne from './assets/newSponsors/AngelOne.png'
+import Codingal from './assets/newSponsors/Codingal.jpg'
+import Rapido from './assets/newSponsors/Rapido.png'
+import NoticeBard from './assets/newSponsors/NoticeBard.png'
+import IndianAcademyofEntrepreneurship from './assets/newSponsors/Indian Academy of Entrepreneurship.jpeg'
+import GrabOn from './assets/newSponsors/GrabOn.png'
+import CodingNinjas from './assets/newSponsors/CodingNinjas.png'
+import BadeLog from './assets/newSponsors/BadeLog.jpeg'
+import RadioCity from './assets/newSponsors/RadioCity.jpg'
+import Hiralal from './assets/newSponsors/Hiralal.jpeg'
+import gfg from './assets/newSponsors/gfg.png'
+import SahiCoin from './assets/newSponsors/SahiCoin.svg'
+import custkart from './assets/newSponsors/custkart.png'
+import pizzahut from './assets/newSponsors/pizzahut.png'
+import stockedge from './assets/newSponsors/stockedge.jpg'
+import xvc from './assets/newSponsors/100xvc.png'
+import devtown from './assets/newSponsors/devtown.svg'
+import Karostartup from './assets/newSponsors/KaroStartup.jpg'
+import yhills from "./assets/newSponsors/YHills.png"
 
+
+
+export const NewSponsors = [
+    {
+        Name: "Youth Incorporated",
+        Link: '',
+        image: YouthIncorporated,
+        type: "Youth Media partner"
+    },
+    {
+        Name: "Custkart",
+        Link: '',
+        image: custkart,
+        type: "Merchandise Partner"
+    },
+    {
+        Name: "Swift Skills",
+        Link: '',
+        image: '',
+        type: "Gaming Partner"
+    },
+    {
+        Name: "Pizza Hut",
+        Link: '',
+        image: pizzahut,
+        type: "Pizza Partner"
+    },
+    {
+        Name: "Stock Edge",
+        Link: '',
+        image: stockedge,
+        type: "Learning Partner"
+    },
+    {
+        Name: "Sahi Coin",
+        Link: '',
+        image: SahiCoin,
+        type: "Crypto Trading Partner"
+    },
+    {
+        Name: "GFG",
+        Link: '',
+        image: gfg,
+        type: "Programming Partner"
+    },
+    {
+        Name: "DevTown",
+        Link: '',
+        image: devtown,
+        type: "TechED Partner"
+    },
+    {
+        Name: "100X VC",
+        Link: '',
+        image: xvc,
+        type: "Investment Partner"
+    },
+    {
+        Name: "Hiralal Agencies",
+        Link: '',
+        image: Hiralal,
+        type: "Industrial Partner"
+    },
+    {
+        Name: "The Startup Lab",
+        Link: '',
+        image: '',
+        type: "Startup Support Partner"
+    },
+    {
+        Name: "RadioCity",
+        Link: '',
+        image: RadioCity,
+        type: "Radio Partner"
+    },
+    {
+        Name: "BadeLog",
+        Link: '',
+        image: BadeLog,
+        type: "Styling Partner"
+    },
+    {
+        Name: "Karostartup",
+        Link: '',
+        image: Karostartup,
+        type: "Outreach Partner"
+    },
+    {
+        Name: "Floxus",
+        Link: '',
+        image: floxus,
+        type: "In Association with"
+    },
+    {
+        Name: "Gather",
+        Link: '',
+        image: '',
+        type: "Platform Partner"
+    },
+    {
+        Name: "GiveMyCertificate",
+        Link: '',
+        image: '',
+        type: "Certificate Partner"
+    },
+    {
+        Name: "YHills Edutech",
+        Link: '',
+        image: yhills,
+        type: "Training cum Internship Partner"
+    },
+    {
+        Name: "Ekcle Ventures",
+        Link: '',
+        image: '',
+        type: "Investment Partner"
+    },
+    
+    {
+        Name: "Coding Ninjas",
+        Link: '',
+        image: CodingNinjas,
+        type: "Coding Partner"
+    },
+    {
+        Name: "GrabOn",
+        Link: '',
+        image: GrabOn,
+        type: "Savings Partner"
+    },
+    {
+        Name: "Youth Incorporated",
+        Link: '',
+        image: YouthIncorporated,
+        type: "Youth Media partner"
+    },
+    {
+        Name: "Indian Academy of Entrepreneurship",
+        Link: '',
+        image: IndianAcademyofEntrepreneurship,
+        type: "Innovation Partner"
+    },
+    {
+        Name: "NoticeBard",
+        Link: '',
+        image: NoticeBard,
+        type: "Media Partner"
+    },
+    {
+        Name: "Codingal",
+        Link: '',
+        image: Codingal,
+        type: "Creative Learning Partner"
+    },
+    {
+        Name: "Rapido",
+        Link: '',
+        image: Rapido,
+        type: "Driven by Partner"
+    },
+    {
+        Name: "Interview Buddy",
+        Link: '',
+        image: InterviewBuddy,
+        type: "Interview Partner"
+    },
+    {
+        Name: "DU Beat - An Independent Student Newspaper",
+        Link: '',
+        image: DUBeat,
+        type: "Media Partner"
+    },
+    {
+        Name: "StartupStartkaro Legaltech",
+        Link: '',
+        image: StartupStartkaro ,
+        type: "Legal Partner"
+    },
+    {
+        Name: "FinST₹EET",
+        Link: '',
+        image:Finstreet ,
+        type: "Crypto-Learning Partner"
+    },
+    {
+        Name: "Learning While Travelling",
+        Link: '',
+        image:LearningWhileTravelling ,
+        type: "Knowledge Partner"
+    },
+    {
+        Name: "Campus Times Pune",
+        Link: '',
+        image:CampusTimePune ,
+        type: "Online Media Partner"
+    },
+    {
+        Name: "Blue Hill Publications",
+        Link: '',
+        image:BlueHillPublication,
+        type: "Publication House Partner"
+    },
+    {
+        Name: "MFL Educlub",
+        Link: '',
+        image:MFL_Educlub,
+        type: "Edu Partner"
+    },
+    {
+        Name: "GrowthSchool",
+        Link: '',
+        image:GrowthSchool,
+        type: "Education Partner"
+    },
+    {
+        Name: "Poker Street",
+        Link: '',
+        image:PokerStreet,
+        type: "Gaming Partner"
+    },
+    {
+        Name: "Dare2Compete",
+        Link: '',
+        image:Dare2Compete,
+        type: "In Association With"
+    },
+    {
+        Name: "HPCL",
+        Link: '',
+        image:HPCL,
+        type: "Co-presented by"
+    },
+    {
+        Name: "YesStartups",
+        Link: '',
+        image:YesStartups,
+        type: "Digital Community Partner"
+    },
+    {
+        Name: "Edufabrica",
+        Link: '',
+        image:Edufabrica,
+        type: "Training Partner"
+    },
+    {
+        Name: "Angel One",
+        Link: '',
+        image:AngelOne,
+        type: "Training Partner"
+    },
+
+
+
+]
 
 
 export const speakerSchedule = [
@@ -304,6 +592,9 @@ export const Speakers = [
     },
 
 ]
+
+
+
 
 export const sponsors = [
     {
