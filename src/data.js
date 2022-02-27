@@ -233,7 +233,7 @@ export const NewSponsors = [
     },
     {
         Name: "Ekcle Ventures",
-        Link: '',
+        Link: 'https://www.linkedin.com/company/ekcle/?originalSubdomain=in',
         image: '',
         type: "Investment Partner"
     },
