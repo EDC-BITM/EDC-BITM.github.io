@@ -16,6 +16,7 @@ import sponsorCollagePic from '../assets/sponsorCollage.jpg';
 import About from '../components/About';
 import Carousel from '../components/carousel/Carousel';
 import Carousel2 from '../components/carousel2/Carousel2'
+import { NewSponsors } from '../data';
 
 const LandingPage = () => {
   const [show, setShow] = useState(false);
@@ -87,8 +88,8 @@ const LandingPage = () => {
       {/* </EventsContainer> */}
       {/* </SectionContainer> */}
       <SectionContainer id='sponsors'>
-        <Heading>Previous Sponsors</Heading>
-        <Image src={sponsorCollagePic}></Image>
+        <Heading>Sponsors</Heading>
+        {/* <Image src={sponsorCollagePic}></Image> */}
         {/* <SponsorHeading>Title Sponsor</SponsorHeading>
                 <ImpSponsorContainer>
                     <ImpSponsorBox href='https://www.angelbroking.com/'>
@@ -132,14 +133,14 @@ const LandingPage = () => {
                         </ImageContainer>
                     </ImpSponsorBox>
                 </ImpSponsorContainer>
-                <SponsorHeading>All Sponsors</SponsorHeading>
+        <SponsorHeading>All Sponsors</SponsorHeading>*/}
                 <EventsContainer>
                     {
-                        sponsors.map((sponsor) => {
+                        NewSponsors.map((sponsor) => {
                             return (<SponsorBox data={sponsor} />)
                         })
                     }
-                </EventsContainer>*/}
+                </EventsContainer>
       </SectionContainer>
       <SectionContainer>
             <Heading>Speaker insights</Heading>

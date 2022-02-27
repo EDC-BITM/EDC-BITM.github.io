@@ -119,7 +119,11 @@ import xvc from './assets/newSponsors/100xvc.png'
 import devtown from './assets/newSponsors/devtown.svg'
 import Karostartup from './assets/newSponsors/KaroStartup.jpg'
 import yhills from "./assets/newSponsors/YHills.png"
-
+import swiftskill from "./assets/newSponsors/swiftskills.png"
+import startuplab from "./assets/newSponsors/Thestartuplab.png"
+import gather from "./assets/newSponsors/Gather.png"
+import certificate from "./assets/newSponsors/Givemycertificate.png"
+import ekcle from "./assets/newSponsors/Ekcleventures.png"
 
 
 export const NewSponsors = [
@@ -138,7 +142,7 @@ export const NewSponsors = [
     {
         Name: "Swift Skills",
         Link: 'https://swiftskill.gg/',
-        image: '',
+        image: swiftskill,
         type: "Gaming Partner"
     },
     {
@@ -186,7 +190,7 @@ export const NewSponsors = [
     {
         Name: "The Startup Lab",
         Link: 'https://thestartuplab.in/',
-        image: '',
+        image: startuplab,
         type: "Startup Support Partner"
     },
     {
@@ -216,13 +220,13 @@ export const NewSponsors = [
     {
         Name: "Gather",
         Link: 'https://www.gather.town/',
-        image: '',
+        image: gather,
         type: "Platform Partner"
     },
     {
         Name: "GiveMyCertificate",
         Link: 'https://givemycertificate.com/',
-        image: '',
+        image: certificate,
         type: "Certificate Partner"
     },
     {
@@ -234,7 +238,7 @@ export const NewSponsors = [
     {
         Name: "Ekcle Ventures",
         Link: 'https://www.linkedin.com/company/ekcle/?originalSubdomain=in',
-        image: '',
+        image: ekcle,
         type: "Investment Partner"
     },
     
@@ -301,78 +305,75 @@ export const NewSponsors = [
     {
         Name: "FinST₹EET",
         Link: 'https://finstreet.in/',
-        image:Finstreet ,
+        image: Finstreet ,
         type: "Crypto-Learning Partner"
     },
     {
         Name: "Learning While Travelling",
         Link: 'https://learningwhiletravelling.com/home',
-        image:LearningWhileTravelling ,
+        image: LearningWhileTravelling ,
         type: "Knowledge Partner"
     },
     {
         Name: "Campus Times Pune",
         Link: 'https://www.campustimespune.com/',
-        image:CampusTimePune ,
+        image: CampusTimePune ,
         type: "Online Media Partner"
     },
     {
         Name: "Blue Hill Publications",
         Link: 'https://bluehillpublications.in/',
-        image:BlueHillPublication,
+        image: BlueHillPublication,
         type: "Publication House Partner"
     },
     {
         Name: "MFL Educlub",
         Link: 'https://mfleduclub.wpcomstaging.com/',
-        image:MFL_Educlub,
+        image: MFL_Educlub,
         type: "Edu Partner"
     },
     {
         Name: "GrowthSchool",
         Link: 'https://growthschool.io/',
-        image:GrowthSchool,
+        image: GrowthSchool,
         type: "Education Partner"
     },
     {
         Name: "Poker Street",
         Link: 'https://pokerstreet.in/',
-        image:PokerStreet,
+        image: PokerStreet,
         type: "Gaming Partner"
     },
     {
         Name: "Dare2Compete",
         Link: 'https://dare2compete.com/',
-        image:Dare2Compete,
+        image: Dare2Compete,
         type: "In Association With"
     },
     {
         Name: "HPCL",
         Link: 'https://www.hindustanpetroleum.com/',
-        image:HPCL,
+        image: HPCL,
         type: "Co-presented by"
     },
     {
         Name: "YesStartups",
         Link: 'https://yesstartups.com/',
-        image:YesStartups,
+        image: YesStartups,
         type: "Digital Community Partner"
     },
     {
         Name: "Edufabrica",
         Link: 'https://www.edufabrica.net/',
-        image:Edufabrica,
+        image: Edufabrica,
         type: "Training Partner"
     },
     {
         Name: "Angel One",
         Link: 'https://www.angelone.in/',
-        image:AngelOne,
+        image: AngelOne,
         type: "Training Partner"
-    },
-
-
-
+    }
 ]
 
 
@@ -684,10 +685,6 @@ export const Speakers = [
 
 ]
 
-<<<<<<< HEAD
-
-
-=======
 export const insights = [
     {
         Name: "Aman Dhattarwal",
@@ -722,7 +719,6 @@ export const insights = [
         comment: "If you are really passionate about the fact that this is the idea that I'm going to make it work, you will make it happen even without capital and other things, you will make things work in a way that it will have revenue streams."
     },
 ]
->>>>>>> 8cf95116328f6336631e984159356407ce440449
 
 export const sponsors = [
     {
