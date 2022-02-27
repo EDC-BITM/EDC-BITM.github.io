@@ -106,7 +106,7 @@ import Rapido from './assets/newSponsors/Rapido.png'
 import NoticeBard from './assets/newSponsors/NoticeBard.png'
 import IndianAcademyofEntrepreneurship from './assets/newSponsors/Indian Academy of Entrepreneurship.jpeg'
 import GrabOn from './assets/newSponsors/GrabOn.png'
-import CodingNinjas from './assets/newSponsors/CodingNinjas.png'
+import CodingNinjas from './assets/newSponsors/CodingNinjas.svg'
 import BadeLog from './assets/newSponsors/BadeLog.jpeg'
 import RadioCity from './assets/newSponsors/RadioCity.jpg'
 import Hiralal from './assets/newSponsors/Hiralal.jpeg'
@@ -128,10 +128,10 @@ import ekcle from "./assets/newSponsors/Ekcleventures.png"
 
 export const NewSponsors = [
     {
-        Name: "Youth Incorporated",
-        Link: 'https://youthincmag.com',
-        image: YouthIncorporated,
-        type: "Youth Media partner"
+        Name: "YesStartups",
+        Link: 'https://yesstartups.com/',
+        image: YesStartups,
+        type: "Digital Community Partner"
     },
     {
         Name: "Custkart",
@@ -140,46 +140,10 @@ export const NewSponsors = [
         type: "Merchandise Partner"
     },
     {
-        Name: "Swift Skills",
-        Link: 'https://swiftskill.gg/',
-        image: swiftskill,
-        type: "Gaming Partner"
-    },
-    {
-        Name: "Pizza Hut",
-        Link: 'https://www.pizzahut.co.in/',
-        image: pizzahut,
-        type: "Pizza Partner"
-    },
-    {
-        Name: "Stock Edge",
-        Link: 'https://stockedge.com/',
-        image: stockedge,
-        type: "Learning Partner"
-    },
-    {
         Name: "Sahi Coin",
         Link: 'https://sahicoin.com/',
         image: SahiCoin,
         type: "Crypto Trading Partner"
-    },
-    {
-        Name: "GFG",
-        Link: 'https://www.geeksforgeeks.org/',
-        image: gfg,
-        type: "Programming Partner"
-    },
-    {
-        Name: "DevTown",
-        Link: 'https://www.devtown.in/',
-        image: devtown,
-        type: "TechED Partner"
-    },
-    {
-        Name: "100X VC",
-        Link: 'https://www.100x.vc/',
-        image: xvc,
-        type: "Investment Partner"
     },
     {
         Name: "Hiralal Agencies",
@@ -188,35 +152,12 @@ export const NewSponsors = [
         type: "Industrial Partner"
     },
     {
-        Name: "The Startup Lab",
-        Link: 'https://thestartuplab.in/',
-        image: startuplab,
-        type: "Startup Support Partner"
-    },
-    {
-        Name: "RadioCity",
-        Link: 'https://www.radiocity.in/',
-        image: RadioCity,
-        type: "Radio Partner"
-    },
-    {
         Name: "BadeLog",
         Link: 'https://badelog.co.in/',
         image: BadeLog,
         type: "Styling Partner"
     },
-    {
-        Name: "Karostartup",
-        Link: 'https://karostartup.com/',
-        image: Karostartup,
-        type: "Outreach Partner"
-    },
-    {
-        Name: "Floxus",
-        Link: 'https://floxus.co/',
-        image: floxus,
-        type: "In Association with"
-    },
+    
     {
         Name: "Gather",
         Link: 'https://www.gather.town/',
@@ -230,35 +171,10 @@ export const NewSponsors = [
         type: "Certificate Partner"
     },
     {
-        Name: "YHills Edutech",
-        Link: 'https://www.yhills.com/',
-        image: yhills,
-        type: "Training cum Internship Partner"
-    },
-    {
-        Name: "Ekcle Ventures",
-        Link: 'https://www.linkedin.com/company/ekcle/?originalSubdomain=in',
-        image: ekcle,
-        type: "Investment Partner"
-    },
-    
-    {
-        Name: "Coding Ninjas",
-        Link: 'https://www.codingninjas.com/',
-        image: CodingNinjas,
-        type: "Coding Partner"
-    },
-    {
         Name: "GrabOn",
         Link: 'https://www.grabon.in/',
         image: GrabOn,
         type: "Savings Partner"
-    },
-    {
-        Name: "Youth Incorporated",
-        Link: 'https://youthincmag.com',
-        image: YouthIncorporated,
-        type: "Youth Media partner"
     },
     {
         Name: "Indian Academy of Entrepreneurship",
@@ -267,28 +183,86 @@ export const NewSponsors = [
         type: "Innovation Partner"
     },
     {
-        Name: "NoticeBard",
-        Link: 'https://www.noticebard.com/',
-        image: NoticeBard,
-        type: "Media Partner"
-    },
-    {
-        Name: "Codingal",
-        Link: 'https://www.codingal.com/',
-        image: Codingal,
-        type: "Creative Learning Partner"
-    },
-    {
         Name: "Rapido",
         Link: 'https://www.rapido.bike/',
         image: Rapido,
         type: "Driven by Partner"
     },
     {
-        Name: "Interview Buddy",
-        Link: 'https://interviewbuddy.in/',
-        image: InterviewBuddy,
-        type: "Interview Partner"
+        Name: "StartupStartkaro Legaltech",
+        Link: 'https://startupstartkaro.com/',
+        image: StartupStartkaro ,
+        type: "Legal Partner"
+    },
+
+    {
+        Name: "Blue Hill Publications",
+        Link: 'https://bluehillpublications.in/',
+        image: BlueHillPublication,
+        type: "Publication House Partner"
+    },
+    {
+        Name: "Pizza Hut",
+        Link: 'https://www.pizzahut.co.in/',
+        image: pizzahut,
+        type: "Pizza Partner"
+    },
+]
+
+export const TitleSponsor=[
+    {
+        Name: "Angel One",
+        Link: 'https://www.angelone.in/',
+        image: AngelOne,
+        type: "Title sponsor"
+    }
+]
+
+export const copreSponsor=[
+    {
+        Name: "HPCL",
+        Link: 'https://www.hindustanpetroleum.com/',
+        image: HPCL,
+        type: "Co-presented by"
+    },
+]
+
+export const associationSponsor=[
+    {
+        Name: "Dare2Compete",
+        Link: 'https://dare2compete.com/',
+        image: Dare2Compete,
+        type: "In Association With"
+    },
+    {
+        Name: "Floxus",
+        Link: 'https://floxus.co/',
+        image: floxus,
+        type: "In Association with"
+    },
+]
+
+export const investSponsor=[
+    {
+        Name: "100X VC",
+        Link: 'https://www.100x.vc/',
+        image: xvc,
+        type: "Investment Partner"
+    },
+    {
+        Name: "Ekcle Ventures",
+        Link: 'https://www.linkedin.com/company/ekcle/?originalSubdomain=in',
+        image: ekcle,
+        type: "Investment Partner"
+    },
+]
+
+export const mediaSponsor=[
+    {
+        Name: "Youth Incorporated",
+        Link: 'https://youthincmag.com',
+        image: YouthIncorporated,
+        type: "Youth Media partner"
     },
     {
         Name: "DU Beat - An Independent Student Newspaper",
@@ -297,10 +271,100 @@ export const NewSponsors = [
         type: "Media Partner"
     },
     {
-        Name: "StartupStartkaro Legaltech",
-        Link: 'https://startupstartkaro.com/',
-        image: StartupStartkaro ,
-        type: "Legal Partner"
+        Name: "NoticeBard",
+        Link: 'https://www.noticebard.com/',
+        image: NoticeBard,
+        type: "Media Partner"
+    },
+    {
+        Name: "Karostartup",
+        Link: 'https://karostartup.com/',
+        image: Karostartup,
+        type: "Outreach Partner"
+    },
+    {
+        Name: "RadioCity",
+        Link: 'https://www.radiocity.in/',
+        image: RadioCity,
+        type: "Radio Partner"
+    },
+    {
+        Name: "Campus Times Pune",
+        Link: 'https://www.campustimespune.com/',
+        image: CampusTimePune ,
+        type: "Online Media Partner"
+    },
+]
+
+export const gameSponsor=[
+    {
+        Name: "Poker Street",
+        Link: 'https://pokerstreet.in/',
+        image: PokerStreet,
+        type: "Gaming Partner"
+    },
+    {
+        Name: "Swift Skills",
+        Link: 'https://swiftskill.gg/',
+        image: swiftskill,
+        type: "Gaming Partner"
+    },
+]
+
+export const learnSponosor=[
+    {
+        Name: "GrowthSchool",
+        Link: 'https://growthschool.io/',
+        image: GrowthSchool,
+        type: "Education Partner"
+    },
+    {
+        Name: "Coding Ninjas",
+        Link: 'https://www.codingninjas.com/',
+        image: CodingNinjas,
+        type: "Coding Partner"
+    },
+    {
+        Name: "Stock Edge",
+        Link: 'https://stockedge.com/',
+        image: stockedge,
+        type: "Learning Partner"
+    },
+    {
+        Name: "GeeksForGeeks",
+        Link: 'https://www.geeksforgeeks.org/',
+        image: gfg,
+        type: "Programming Partner"
+    },
+    {
+        Name: "DevTown",
+        Link: 'https://www.devtown.in/',
+        image: devtown,
+        type: "TechED Partner"
+    },
+    {
+        Name: "The Startup Lab",
+        Link: 'https://thestartuplab.in/',
+        image: startuplab,
+        type: "Startup Support Partner"
+    },
+    {
+        Name: "YHills Edutech",
+        Link: 'https://www.yhills.com/',
+        image: yhills,
+        type: "Training cum Internship Partner"
+    },
+    {
+        Name: "Codingal",
+        Link: 'https://www.codingal.com/',
+        image: Codingal,
+        type: "Creative Learning Partner"
+    },
+    {
+        Name: "Interview Buddy",
+        Link: 'https://interviewbuddy.in/',
+        image: InterviewBuddy,
+        type: "Interview Partner"
     },
     {
         Name: "FinST₹EET",
@@ -315,52 +379,10 @@ export const NewSponsors = [
         type: "Knowledge Partner"
     },
     {
-        Name: "Campus Times Pune",
-        Link: 'https://www.campustimespune.com/',
-        image: CampusTimePune ,
-        type: "Online Media Partner"
-    },
-    {
-        Name: "Blue Hill Publications",
-        Link: 'https://bluehillpublications.in/',
-        image: BlueHillPublication,
-        type: "Publication House Partner"
-    },
-    {
         Name: "MFL Educlub",
         Link: 'https://mfleduclub.wpcomstaging.com/',
         image: MFL_Educlub,
         type: "Edu Partner"
-    },
-    {
-        Name: "GrowthSchool",
-        Link: 'https://growthschool.io/',
-        image: GrowthSchool,
-        type: "Education Partner"
-    },
-    {
-        Name: "Poker Street",
-        Link: 'https://pokerstreet.in/',
-        image: PokerStreet,
-        type: "Gaming Partner"
-    },
-    {
-        Name: "Dare2Compete",
-        Link: 'https://dare2compete.com/',
-        image: Dare2Compete,
-        type: "In Association With"
-    },
-    {
-        Name: "HPCL",
-        Link: 'https://www.hindustanpetroleum.com/',
-        image: HPCL,
-        type: "Co-presented by"
-    },
-    {
-        Name: "YesStartups",
-        Link: 'https://yesstartups.com/',
-        image: YesStartups,
-        type: "Digital Community Partner"
     },
     {
         Name: "Edufabrica",
@@ -368,12 +390,6 @@ export const NewSponsors = [
         image: Edufabrica,
         type: "Training Partner"
     },
-    {
-        Name: "Angel One",
-        Link: 'https://www.angelone.in/',
-        image: AngelOne,
-        type: "Training Partner"
-    }
 ]
 
 

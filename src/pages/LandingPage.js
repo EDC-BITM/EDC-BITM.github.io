@@ -16,7 +16,7 @@ import sponsorCollagePic from '../assets/sponsorCollage.jpg';
 import About from '../components/About';
 import Carousel from '../components/carousel/Carousel';
 import Carousel2 from '../components/carousel2/Carousel2'
-import { NewSponsors } from '../data';
+import { NewSponsors,TitleSponsor,copreSponsor,associationSponsor,investSponsor,mediaSponsor,gameSponsor,learnSponosor } from '../data';
 
 const LandingPage = () => {
   const [show, setShow] = useState(false);
@@ -90,50 +90,63 @@ const LandingPage = () => {
       <SectionContainer id='sponsors'>
         <Heading>Sponsors</Heading>
         {/* <Image src={sponsorCollagePic}></Image> */}
-        {/* <SponsorHeading>Title Sponsor</SponsorHeading>
-                <ImpSponsorContainer>
-                    <ImpSponsorBox href='https://www.angelbroking.com/'>
-                        <ImageContainer>
-                            <Image src={angel} />
-                        </ImageContainer>
-                    </ImpSponsorBox>
-                </ImpSponsorContainer>
-                <SponsorHeading>Co-Powered By</SponsorHeading>
-                <ImpSponsorContainer>
-                    <ImpSponsorBox href="https://www.floxus.tech/">
-                        <ImageContainer>
-                            <Image src={floxus} />
-                        </ImageContainer>
-                    </ImpSponsorBox>
-
-                    <ImpSponsorBox href="https://ibhubs.co/">
-                        <ImageContainer>
-                            <Image src={ibHubs} />
-                        </ImageContainer>
-                    </ImpSponsorBox>
-                </ImpSponsorContainer>
-
+        <SponsorHeading>Title Sponsor</SponsorHeading>
+                <EventsContainer>
+                    {
+                        TitleSponsor.map((sponsor) => {
+                            return (<SponsorBox data={sponsor} />)
+                        })
+                    }
+                </EventsContainer>
+                <SponsorHeading>Co-Presented By</SponsorHeading>
+                <EventsContainer>
+                    {
+                        copreSponsor.map((sponsor) => {
+                            return (<SponsorBox data={sponsor} />)
+                        })
+                    }
+                </EventsContainer>
                 <SponsorHeading>In Association with</SponsorHeading>
-                <ImpSponsorContainer>
-                    <ImpSponsorBox href="https://kolkata.tie.org/">
-                        <ImageContainer>
-                            <Image src={tie} />
-                        </ImageContainer>
-                    </ImpSponsorBox>
-
-                    <ImpSponsorBox href="https://learningwhiletravelling.com/">
-                        <ImageContainer>
-                            <Image src={learningWhileTravelling} />
-                        </ImageContainer>
-                    </ImpSponsorBox>
-
-                    <ImpSponsorBox href="https://www.mic.gov.in/innovation-council/iic">
-                        <ImageContainer>
-                            <Image src={iic} />
-                        </ImageContainer>
-                    </ImpSponsorBox>
-                </ImpSponsorContainer>
-        <SponsorHeading>All Sponsors</SponsorHeading>*/}
+                <EventsContainer>
+                    {
+                        associationSponsor.map((sponsor) => {
+                            return (<SponsorBox data={sponsor} />)
+                        })
+                    }
+                </EventsContainer>
+                <SponsorHeading>Investment Partners</SponsorHeading>
+                <EventsContainer>
+                    {
+                        investSponsor.map((sponsor) => {
+                            return (<SponsorBox data={sponsor} />)
+                        })
+                    }
+                </EventsContainer>
+                <SponsorHeading>Media Partners</SponsorHeading>
+                <EventsContainer>
+                    {
+                        mediaSponsor.map((sponsor) => {
+                            return (<SponsorBox data={sponsor} />)
+                        })
+                    }
+                </EventsContainer>
+                <SponsorHeading>Gaming Partners</SponsorHeading>
+                <EventsContainer>
+                    {
+                        gameSponsor.map((sponsor) => {
+                            return (<SponsorBox data={sponsor} />)
+                        })
+                    }
+                </EventsContainer>
+                <SponsorHeading>Learning Partners</SponsorHeading>
+                <EventsContainer>
+                    {
+                        learnSponosor.map((sponsor) => {
+                            return (<SponsorBox data={sponsor} />)
+                        })
+                    }
+                </EventsContainer>
+        <SponsorHeading>All Sponsors</SponsorHeading>
                 <EventsContainer>
                     {
                         NewSponsors.map((sponsor) => {
@@ -400,10 +413,10 @@ const Heading = styled.h1`
 
 const SponsorHeading = styled.h1`
   display: block;
-  /* background-image: linear-gradient(to right, #f76c6c, #e8637c, #d45f8a, #bc5e93, #a25e97);
+   background-image: linear-gradient(to right, #f76c6c, #e8637c, #d45f8a, #bc5e93, #a25e97);
     -webkit-background-clip: text;
     background-clip:text;
-    -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;
   color: white;
   font-size: 24px;
   text-align: center;
@@ -432,9 +445,9 @@ const EventsContainer = styled.div`
   border-radius: 20px;
   padding: ${(props) => {
     if (props.back) {
-      return '50px';
+      return '20px';
     } else {
-      return '50px 0px 0px 0px';
+      return '20px 0px 30px 0px';
     }
   }};
   background-color: ${(props) => {
