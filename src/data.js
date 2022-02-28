@@ -32,7 +32,6 @@ import codeWarriors from './assets/sponsors/code-warriors.png'
 import codingBlocks from './assets/sponsors/coding-blocks.png'
 import codingal from './assets/sponsors/Codingal.svg'
 import computerSol from './assets/sponsors/Computer-Solution.jpeg'
-import custkart from './assets/sponsors/CUSTKART_1.png'
 import d2c from './assets/sponsors/d2c.jpg'
 import duExpress from './assets/sponsors/DU-Express.png'
 import fcr from './assets/sponsors/fcr.jpeg'
@@ -85,7 +84,313 @@ import creatorOfProducts from './assets/sponsors/creatorOfProducts.png'
 import duBeat from './assets/sponsors/duBeat.png'
 import womenInBusiness from './assets/sponsors/womenInBusiness.png'
 import amal from './assets/sponsors/amal.jpeg'
+//NewSponsors
+import YouthIncorporated from './assets/newSponsors/YouthIncorporated.png'
+import InterviewBuddy from './assets/newSponsors/InterviewBuddy.png'
+import DUBeat from './assets/newSponsors/DU Beat - An Independent Student Newspaper.jpg'
+import StartupStartkaro from './assets/newSponsors/startupstartkaro-logo.png'
+import Finstreet from './assets/newSponsors/FinSTREET.jpg'
+import CampusTimePune from './assets/newSponsors/campus time pune.png'
+import MFL_Educlub from './assets/newSponsors/MFL Educlub.png'
+import LearningWhileTravelling from './assets/newSponsors/Learning While Travelling.png'
+import GrowthSchool from './assets/newSponsors/GrowthSchool.png'
+import PokerStreet from './assets/newSponsors/Pokerstreet.jpg'
+import Dare2Compete from './assets/newSponsors/dare2Compete.jpg'
+import BlueHillPublication from './assets/newSponsors/BlueHillPublication.png'
+import HPCL from './assets/newSponsors/HPCL.jpg'
+import YesStartups from './assets/newSponsors/YESSTARTUP.png'
+import Edufabrica from './assets/newSponsors/EDUFABRICA.jpeg'
+import AngelOne from './assets/newSponsors/AngelOne.png'
+import Codingal from './assets/newSponsors/Codingal.jpg'
+import Rapido from './assets/newSponsors/Rapido.png'
+import NoticeBard from './assets/newSponsors/NoticeBard.png'
+import IndianAcademyofEntrepreneurship from './assets/newSponsors/Indian Academy of Entrepreneurship.jpeg'
+import GrabOn from './assets/newSponsors/GrabOn.png'
+import CodingNinjas from './assets/newSponsors/CodingNinjas.svg'
+import BadeLog from './assets/newSponsors/BadeLog.jpeg'
+import RadioCity from './assets/newSponsors/RadioCity.jpg'
+import Hiralal from './assets/newSponsors/Hiralal.jpeg'
+import gfg from './assets/newSponsors/gfg.png'
+import SahiCoin from './assets/newSponsors/SahiCoin.svg'
+import custkart from './assets/newSponsors/custkart.png'
+import pizzahut from './assets/newSponsors/pizzahut.png'
+import stockedge from './assets/newSponsors/stockedge.jpg'
+import xvc from './assets/newSponsors/100xvc.png'
+import devtown from './assets/newSponsors/devtown.svg'
+import Karostartup from './assets/newSponsors/KaroStartup.jpg'
+import yhills from "./assets/newSponsors/YHills.png"
+import swiftskill from "./assets/newSponsors/swiftskills.png"
+import startuplab from "./assets/newSponsors/Thestartuplab.png"
+import gather from "./assets/newSponsors/Gather.png"
+import certificate from "./assets/newSponsors/Givemycertificate.png"
+import ekcle from "./assets/newSponsors/Ekcleventures.png"
 
+
+export const NewSponsors = [
+    {
+        Name: "YesStartups",
+        Link: 'https://yesstartups.com/',
+        image: YesStartups,
+        type: "Digital Community Partner"
+    },
+    {
+        Name: "Custkart",
+        Link: 'https://www.custkart.com/',
+        image: custkart,
+        type: "Merchandise Partner"
+    },
+    {
+        Name: "Sahi Coin",
+        Link: 'https://sahicoin.com/',
+        image: SahiCoin,
+        type: "Crypto Trading Partner"
+    },
+    {
+        Name: "Hiralal Agencies",
+        Link: 'http://www.hiralalgroupranchi.co.in/',
+        image: Hiralal,
+        type: "Industrial Partner"
+    },
+    {
+        Name: "BadeLog",
+        Link: 'https://badelog.co.in/',
+        image: BadeLog,
+        type: "Styling Partner"
+    },
+    
+    {
+        Name: "Gather",
+        Link: 'https://www.gather.town/',
+        image: gather,
+        type: "Platform Partner"
+    },
+    {
+        Name: "GiveMyCertificate",
+        Link: 'https://givemycertificate.com/',
+        image: certificate,
+        type: "Certificate Partner"
+    },
+    {
+        Name: "GrabOn",
+        Link: 'https://www.grabon.in/',
+        image: GrabOn,
+        type: "Savings Partner"
+    },
+    {
+        Name: "Indian Academy of Entrepreneurship",
+        Link: 'https://iaeglocal.com/',
+        image: IndianAcademyofEntrepreneurship,
+        type: "Innovation Partner"
+    },
+    {
+        Name: "Rapido",
+        Link: 'https://www.rapido.bike/',
+        image: Rapido,
+        type: "Driven by Partner"
+    },
+    {
+        Name: "StartupStartkaro Legaltech",
+        Link: 'https://startupstartkaro.com/',
+        image: StartupStartkaro ,
+        type: "Legal Partner"
+    },
+
+    {
+        Name: "Blue Hill Publications",
+        Link: 'https://bluehillpublications.in/',
+        image: BlueHillPublication,
+        type: "Publication House Partner"
+    },
+    {
+        Name: "Pizza Hut",
+        Link: 'https://www.pizzahut.co.in/',
+        image: pizzahut,
+        type: "Pizza Partner"
+    },
+]
+
+export const TitleSponsor=[
+    {
+        Name: "Angel One",
+        Link: 'https://www.angelone.in/',
+        image: AngelOne,
+        type: "Title sponsor"
+    }
+]
+
+export const copreSponsor=[
+    {
+        Name: "HPCL",
+        Link: 'https://www.hindustanpetroleum.com/',
+        image: HPCL,
+        type: "Co-presented by"
+    },
+]
+
+export const associationSponsor=[
+    {
+        Name: "Dare2Compete",
+        Link: 'https://dare2compete.com/',
+        image: Dare2Compete,
+        type: "In Association With"
+    },
+    {
+        Name: "Floxus",
+        Link: 'https://floxus.co/',
+        image: floxus,
+        type: "In Association with"
+    },
+]
+
+export const investSponsor=[
+    {
+        Name: "100X VC",
+        Link: 'https://www.100x.vc/',
+        image: xvc,
+        type: "Investment Partner"
+    },
+    {
+        Name: "Ekcle Ventures",
+        Link: 'https://www.linkedin.com/company/ekcle/?originalSubdomain=in',
+        image: ekcle,
+        type: "Investment Partner"
+    },
+]
+
+export const mediaSponsor=[
+    {
+        Name: "Youth Incorporated",
+        Link: 'https://youthincmag.com',
+        image: YouthIncorporated,
+        type: "Youth Media partner"
+    },
+    {
+        Name: "DU Beat - An Independent Student Newspaper",
+        Link: 'https://dubeat.com/',
+        image: DUBeat,
+        type: "Media Partner"
+    },
+    {
+        Name: "NoticeBard",
+        Link: 'https://www.noticebard.com/',
+        image: NoticeBard,
+        type: "Media Partner"
+    },
+    {
+        Name: "Karostartup",
+        Link: 'https://karostartup.com/',
+        image: Karostartup,
+        type: "Outreach Partner"
+    },
+    {
+        Name: "RadioCity",
+        Link: 'https://www.radiocity.in/',
+        image: RadioCity,
+        type: "Radio Partner"
+    },
+    {
+        Name: "Campus Times Pune",
+        Link: 'https://www.campustimespune.com/',
+        image: CampusTimePune ,
+        type: "Online Media Partner"
+    },
+]
+
+export const gameSponsor=[
+    {
+        Name: "Poker Street",
+        Link: 'https://pokerstreet.in/',
+        image: PokerStreet,
+        type: "Gaming Partner"
+    },
+    {
+        Name: "Swift Skills",
+        Link: 'https://swiftskill.gg/',
+        image: swiftskill,
+        type: "Gaming Partner"
+    },
+]
+
+export const learnSponosor=[
+    {
+        Name: "GrowthSchool",
+        Link: 'https://growthschool.io/',
+        image: GrowthSchool,
+        type: "Education Partner"
+    },
+    {
+        Name: "Coding Ninjas",
+        Link: 'https://www.codingninjas.com/',
+        image: CodingNinjas,
+        type: "Coding Partner"
+    },
+    {
+        Name: "Stock Edge",
+        Link: 'https://stockedge.com/',
+        image: stockedge,
+        type: "Learning Partner"
+    },
+    {
+        Name: "GeeksForGeeks",
+        Link: 'https://www.geeksforgeeks.org/',
+        image: gfg,
+        type: "Programming Partner"
+    },
+    {
+        Name: "DevTown",
+        Link: 'https://www.devtown.in/',
+        image: devtown,
+        type: "TechED Partner"
+    },
+    {
+        Name: "The Startup Lab",
+        Link: 'https://thestartuplab.in/',
+        image: startuplab,
+        type: "Startup Support Partner"
+    },
+    {
+        Name: "YHills Edutech",
+        Link: 'https://www.yhills.com/',
+        image: yhills,
+        type: "Training cum Internship Partner"
+    },
+    {
+        Name: "Codingal",
+        Link: 'https://www.codingal.com/',
+        image: Codingal,
+        type: "Creative Learning Partner"
+    },
+    {
+        Name: "Interview Buddy",
+        Link: 'https://interviewbuddy.in/',
+        image: InterviewBuddy,
+        type: "Interview Partner"
+    },
+    {
+        Name: "FinST₹EET",
+        Link: 'https://finstreet.in/',
+        image: Finstreet ,
+        type: "Crypto-Learning Partner"
+    },
+    {
+        Name: "Learning While Travelling",
+        Link: 'https://learningwhiletravelling.com/home',
+        image: LearningWhileTravelling ,
+        type: "Knowledge Partner"
+    },
+    {
+        Name: "MFL Educlub",
+        Link: 'https://mfleduclub.wpcomstaging.com/',
+        image: MFL_Educlub,
+        type: "Edu Partner"
+    },
+    {
+        Name: "Edufabrica",
+        Link: 'https://www.edufabrica.net/',
+        image: Edufabrica,
+        type: "Training Partner"
+    },
+]
 
 
 export const speakerSchedule = [
@@ -153,6 +458,12 @@ export const newEvents = [
         link: "https://dare2compete.com/competition/unicorn-league-b-plan-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-266181"
     },
     {
+        Name: "IPL Kickoff's",
+        Desc: "Going once, Going Twice, Sold!",
+        Image: iplAuction,
+        link: "https://dare2compete.com/creative-cultural-event/ipl-kickoffs-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-267103"
+    },
+    {
         Name: "Bizalytics",
         Desc: "Statistics to strategy",
         Image: moneyball,
@@ -177,10 +488,34 @@ export const newEvents = [
         link: "https://dare2compete.com/competition/pennywise-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-266160"
     },
     {
+        Name: "The Fued",
+        Desc: "The thrill awaits your presence",
+        Image: pitch,
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSc3kXMf-3nOC5otnvjm8N8VKco4Dj4Y3wKvlp10zJ728mHBdw/viewform"
+    },
+    {
+        Name: "Sahifolio Challenge",
+        Desc: "Presented by sahicoin",
+        Image: crypto,
+        link: "https://dare2compete.com/competition/sahifolio-challenge-a-crypto-trading-competition-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-268537"
+    },
+    {
+        Name: "Bellagio",
+        Desc: "All or nothing (Online Poker)",
+        Image: houseofcards,
+        link: "https://dare2compete.com/creative-cultural-event/bellagio-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-267773"
+    },
+    {
         Name: "Spike Rush",
         Desc: "Let the game begin",
         Image: esport,
         link: "https://dare2compete.com/creative-cultural-event/spike-rush-e-summit22-birla-institute-of-technology-bit-mesra-ranchi-266449"
+    },
+    {
+        Name: "OG Karts",
+        Desc: "Keep calm and race on",
+        Image: footballAuction,
+        link: "https://docs.google.com/forms/d/e/1FAIpQLScYgMvUHC_xY-7kgdSgq2eRr750oN9RFsMvVjXXM0Y0na43mg/viewform"
     },
 ]
 
