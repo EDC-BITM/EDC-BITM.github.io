@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React,{useState} from 'react';
 import SpeakerBox from "../SpeakerBox";
-import { Speakers } from "../../data";
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+import {  Speakers } from "../../data";
+import{FaArrowAltCircleRight,FaArrowAltCircleLeft} from "react-icons/fa";
 import "./carousel.css";
-import { useEffect, useRef } from "react";
-import { useSwipeable } from "react-swipeable";
+
+
+
+
+
 
 // function Carousel() {
 //     const[current,setCurrent]=useState(0);
@@ -33,16 +36,19 @@ import { useSwipeable } from "react-swipeable";
 //                                 <div className={index===current+2?'slide-active inactive':'slide'}key={index}>
 //                                 {index===current+2 && (<SpeakerBox data={speaker}  />)}
 //                                 </div>
-
+                            
 //                                 </div>
-
+                              
+                                
 //                         )
-
+                            
 //                         })
 //                     }
 
 //   </section>
 // }
+
+
 
 // function Carousel() {
 //     const [current, setCurrent] = useState(0);
@@ -52,12 +58,14 @@ import { useSwipeable } from "react-swipeable";
 
 //     // const [yo, setYo] = useState(0);
 //     const length = Speakers.length;
-
+ 
+  
+  
 //     const nextSlide = () => {
 //       setCurrent(current=== length-1?0:current+1);
 //     //   setYo(yo === length - 1 ? 0 : yo + 1);
 //     };
-
+  
 //     const prevSlide = () => {
 //       setCurrent(current === 0?length-1:current-1);
 //     //   setYo(yo === 0 ? length - 1 : yo - 1);
@@ -69,7 +77,7 @@ import { useSwipeable } from "react-swipeable";
 //         {Speakers.map((speaker, index) => {
 //           return (
 //             <div className="carasoul">
-
+         
 //             <div className={index === (current === 0?length-1:current-1) ? "slide-active inactive" : "slide"}key={index}>
 //                 {index === (current === 0?length-1:current-1)  && <SpeakerBox data={speaker} />}
 //               </div>
@@ -84,27 +92,31 @@ import { useSwipeable } from "react-swipeable";
 //               >
 //                 {index === (current) && <SpeakerBox data={speaker} />}
 //               </div>
-
+              
+               
 //               <div className={index ===(current === length-1?0:current+1) ? "slide-active inactive" : "slide"} key={index}>
 //                 {index === (current === length-1?0:current+1) && <SpeakerBox data={speaker} />}
-//               </div>
+//               </div> 
 //               {/* <div className={index ===(current == current+1+length)%length) ? "slide-active inactive" : "slide"} key={index}>
 //                 {index === (current === length-1?0:current+1) && <SpeakerBox data={speaker} />}
 //               </div> */}
+            
 
 //             </div>
-
+       
+            
 //           );
 //         })}
 //       </section>
 //     );
 //   }
 
+
+
 function Carousel() {
   const [current, setCurrent] = useState(0);
-
   const length = Speakers.length;
-  const count = useRef(0);
+
   const nextSlide = () => {
     setCurrent(current === length - 3 ? 0 : current + 1);
   };
@@ -112,58 +124,32 @@ function Carousel() {
   const prevSlide = () => {
     setCurrent(current === 0 ? length - 3 : current - 1);
   };
-
-  useEffect(() => {
-    setInterval(() => {
-      count.current = count.current + 1;
-      setCurrent(count.current);
-    }, 2700);
-  }, []);
-  const handlers = useSwipeable({
-    onSwipedLeft: () => nextSlide(),
-    onSwipedRight: () => prevSlide(),
-  });
   return (
-    <section className="slider" {...handlers} >
+    <section className="slider">
       <FaArrowAltCircleLeft class="left-arrow" onClick={prevSlide} />
       <FaArrowAltCircleRight class="right-arrow" onClick={nextSlide} />
       {Speakers.map((speaker, index) => {
         return (
           <div className="carasoul">
-            <div
-              className={
-                index === current % length ? "slide-active inactive" : "slide"
-              }
-            >
-              {index === current % length && <SpeakerBox data={speaker} />}
+            
+            <div className={index === (current)%length ? "slide-active inactive" : "slide"} >
+              {index === (current)%length && <SpeakerBox data={speaker} />}
+            </div>
+            
+            <div className={index === (current + 1)%length ? "slide-active" : "slide"}>
+              {index === (current + 1)%length && <SpeakerBox data={speaker} />}
             </div>
 
-            <div
-              className={
-                index === (current + 1) % length ? "slide-active" : "slide"
-              }
-            >
-              {index === (current + 1) % length && (
-                <SpeakerBox data={speaker} />
-              )}
+            <div className={index === (current + 2)%length ? "slide-active inactive" : "slide"}>
+              {index === (current + 2)%length && <SpeakerBox data={speaker} />}
             </div>
-
-            <div
-              className={
-                index === (current + 2) % length
-                  ? "slide-active inactive"
-                  : "slide"
-              }
-            >
-              {index === (current + 2) % length && (
-                <SpeakerBox data={speaker} />
-              )}
-            </div>
+          
           </div>
         );
       })}
     </section>
   );
 }
+
 
 export default Carousel;
