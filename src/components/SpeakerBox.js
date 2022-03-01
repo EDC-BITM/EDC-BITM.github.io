@@ -1,21 +1,23 @@
 import React from 'react'
 import styled from 'styled-components'
 
+
 const SpeakerBox = (props) => {
     return (
-        <LinkWrap href={props.data.link}>
-            <MainContainer>
-                <ImageContainer>
-                    <Image src={props.data.Image} />
-                    <Overlay></Overlay>
-                </ImageContainer>
-                <TextContainer>
-                    <Name>{props.data.Name}</Name>
-                    <Designation>{props.data.Desc}</Designation>
-                    <Designation special padded>{props.data.alumni}</Designation>
-                </TextContainer>
-            </MainContainer>
-        </LinkWrap>
+            <LinkWrap href={props.data.link}>
+                <MainContainer>
+                    <ImageContainer>
+                        <Image src={props.data.Image} />
+                        <Overlay></Overlay>
+                    </ImageContainer>
+                    <TextContainer>
+                        <Name>{props.data.Name}</Name>
+                        <Designation>{props.data.Desc}</Designation>
+                        <Designation special padded>{props.data.alumni}</Designation>
+                    </TextContainer>
+                </MainContainer>
+            </LinkWrap>
+
     )
 }
 
