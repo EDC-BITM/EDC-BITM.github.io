@@ -16,7 +16,7 @@ import sponsorCollagePic from '../assets/sponsorCollage.jpg';
 import About from '../components/About';
 import Carousel from '../components/carousel/Carousel';
 import Carousel2 from '../components/carousel2/Carousel2'
-import { NewSponsors,TitleSponsor,copreSponsor,associationSponsor,investSponsor,mediaSponsor,gameSponsor,learnSponosor,startSponsor } from '../data';
+import { NewSponsors,TitleSponsor,copreSponsor,associationSponsor,investSponsor,mediaSponsor,gameSponsor,learnSponosor,startSponsor,copowSponsor } from '../data';
 
 const LandingPage = () => {
   const [show, setShow] = useState(false);
@@ -90,7 +90,7 @@ const LandingPage = () => {
       <SectionContainer id='sponsors'>
         <Heading>Sponsors</Heading>
         {/* <Image src={sponsorCollagePic}></Image> */}
-        {/* {NewSponsors.length+TitleSponsor.length+copreSponsor.length+associationSponsor.length+investSponsor.length+mediaSponsor.length+gameSponsor.length+learnSponosor.length+startSponsor.length} */}
+        {/* {NewSponsors.length+TitleSponsor.length+copreSponsor.length+copowSponsor.length+associationSponsor.length+investSponsor.length+mediaSponsor.length+gameSponsor.length+learnSponosor.length+startSponsor.length} */}
         <SponsorHeading>Title Sponsor</SponsorHeading>
                 <EventsContainer>
                     {
@@ -103,6 +103,14 @@ const LandingPage = () => {
                 <EventsContainer>
                     {
                         copreSponsor.map((sponsor) => {
+                            return (<SponsorBox data={sponsor} />)
+                        })
+                    }
+                </EventsContainer>
+                <SponsorHeading>Co-Powered By</SponsorHeading>
+                <EventsContainer>
+                    {
+                        copowSponsor.map((sponsor) => {
                             return (<SponsorBox data={sponsor} />)
                         })
                     }
