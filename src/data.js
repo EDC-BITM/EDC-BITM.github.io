@@ -75,6 +75,7 @@ import lawyered from "./assets/newSponsors/lawyered.png"
 import myways from './assets/sponsors/Myways.png'
 import floxus from './assets/sponsors/floxus.png'
 import fincess from "./assets/newSponsors/fincess.png"
+import indibni from "./assets/newSponsors/indibni.jpeg"
 
 export const NewSponsors = [
     {
@@ -143,12 +144,12 @@ export const NewSponsors = [
         image: rubrix,
         type: "INFOTAINMENT PARTNER"
     },
-    // {
-    //     Name: "IndiBani",
-    //     Link: '',
-    //     image: '',
-    //     type: "GIFTING PARTNER"
-    // },
+    {
+        Name: "IndiBni",
+        Link: 'https://www.indibni.com/',
+        image: indibni,
+        type: "GIFTING PARTNER"
+    },
 ]
 
 export const TitleSponsor=[
