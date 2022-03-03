@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Particles from "react-tsparticles";
-import  SponsorLogo from "../assets/sponsors/angel.png"
+import SponsorLogo from "../assets/angelNew.png"
 const ParticleLogo = () => {
   const particlesInit = (main) => {
     console.log(main);
@@ -14,10 +14,10 @@ const ParticleLogo = () => {
       <Container>
         <HeadingWrapper>
           <Sponsor>
-            <img height='50px' width='100px' src={SponsorLogo} alt="angel-one logo" />
+            <img height='60px' width='180px' src={SponsorLogo} alt="angel-one logo" />
           </Sponsor>
-          <Heading>E-SUMMIT'22</Heading>
-          <Tagline>Believe To Achieve</Tagline>
+          <Heading><div className="heading">E-SUMMIT'22</div></Heading>
+          <Tagline><div className="tagline">Believe To Achieve</div></Tagline>
         </HeadingWrapper>
         <Logo>
           <Particles
@@ -59,13 +59,13 @@ const ParticleLogo = () => {
               },
               particles: {
                 color: {
-                  value: "#ffffff",
+                  value: "#FF8000",
                 },
                 links: {
                   color: {
-                    value: "#ffffff",
+                    value: "#FF8000",
                   },
-                  distance: 30,
+                  distance: 40,
                   enable: true,
                   opacity: 0.4,
                 },
@@ -84,13 +84,13 @@ const ParticleLogo = () => {
                     right: "bounce",
                     top: "bounce",
                   },
-                  speed: 0.02,
+                  speed: 0.1,
                 },
                 number: {
                   density: {
-                    area: 2000,
+                    area:2000,
                   },
-                  value: 100,
+                  value: 200,
                 },
                 opacity: {
                   value: {
@@ -129,10 +129,10 @@ const ParticleLogo = () => {
                   arrangement: "equidistant",
                 },
                 move: {
-                  radius: 1,
+                  radius: 10,
                   type: "path",
                 },
-                scale: 0.5,
+                scale: 0.8,
                 type: "inline",
                 url: "https://res.cloudinary.com/hevently-sarang/image/upload/v1645524153/vector1_djyr4t.svg",
               },
@@ -151,17 +151,24 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  width: 100%;
+  gap: 40px;
 `;
 const Heading = styled.h1`
   color: #fff;
   font-size: 4rem;
+  font-family: 'Poppins';
+  letter-spacing: 2px;
 `;
+
 
 const Logo = styled.div`
   color: #fff;
 `;
 
-const HeadingWrapper = styled.div``;
+const HeadingWrapper = styled.div`
+  
+`;
 
 const Sponsor = styled.div`
 `;
@@ -171,4 +178,8 @@ color:#fff;
 font-size:1.2rem;
 text-align:right;
 margin-right:4rem;
+font-family: 'Poppins';
+text-transform: uppercase;
+font-style: italic;
+letter-spacing: 4px;
 `
