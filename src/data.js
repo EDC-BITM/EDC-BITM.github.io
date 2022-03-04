@@ -76,6 +76,7 @@ import myways from './assets/sponsors/Myways.png'
 import floxus from './assets/sponsors/floxus.png'
 import fincess from "./assets/newSponsors/fincess.png"
 import indibni from "./assets/newSponsors/indibni.jpeg"
+import startupEd from "./assets/newSponsors/startupEd.png"
 
 export const NewSponsors = [
     {
@@ -287,6 +288,12 @@ export const startSponsor=[
         Link: 'https://startupstartkaro.com/',
         image: StartupStartkaro ,
         type: "Legal Partner"
+    },
+    {
+        Name: "StartupEd",
+        Link: 'http://www.startuped.net/',
+        image: startupEd ,
+        type: "Incubation Cloud partner"
     },
     {
         Name: "Lawyered",
