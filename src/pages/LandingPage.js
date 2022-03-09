@@ -17,6 +17,7 @@ import About from '../components/About';
 import Carousel from '../components/carousel/Carousel';
 import Carousel2 from '../components/carousel2/Carousel2'
 import { NewSponsors,TitleSponsor,copreSponsor,associationSponsor,investSponsor,mediaSponsor,gameSponsor,learnSponosor,startSponsor,copowSponsor } from '../data';
+import ParticleLogo from "../components/ParticleLogo";
 
 const LandingPage = () => {
   const [show, setShow] = useState(false);
@@ -29,7 +30,8 @@ const LandingPage = () => {
   }, []);
   return (
     <Container>
-      <LandingSectionContainer>
+      <LandingSectionContainer>{ <ParticleLogo />}</LandingSectionContainer>
+      {/* <LandingSectionContainer>
         <LandingHeading>
           Believe to <Span>Achieve</Span>
         </LandingHeading>
@@ -46,8 +48,8 @@ const LandingPage = () => {
             Join Discord
           </LandingButton>
         </LandingButtonContainer>
-      </LandingSectionContainer>
-
+      </LandingSectionContainer> */}
+      
       <SectionContainer>{show && <About />}</SectionContainer>
       <SectionContainer>
         <Heading>Event Timeline</Heading>

@@ -8,9 +8,9 @@ import { FaBars } from 'react-icons/fa';
 const Navbar = ({toggle}) => {
     return (
         <NavContainer>
-            <LogoContainer>
+            {/* <LogoContainer>
                 <Logo src={newLogo} />
-            </LogoContainer>
+            </LogoContainer> */}
             <Bars onClick={toggle}/>
             <LinksContainer>
                 <NavLinkWeb>
