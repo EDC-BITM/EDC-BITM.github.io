@@ -1,15 +1,39 @@
-
-
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
-
 
 body {
   background-color: #0d0d21;
 }
 
+.tsparticles-canvas-el {
+  width: 510px !important;
+  height: 510px !important;
+  z-index: 1;
+  pointer-events: initial;
+}
 
+.particle-class{
+  width: 150%;
+  height: 100%;
+  z-index: -1;
+}
+#tsparticles{
+  width: 150%;
+  height: 100%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 420px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+  .tagline{
+    font-size: 0.8rem;
+  }
+}

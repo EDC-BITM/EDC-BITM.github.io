@@ -179,6 +179,7 @@ const LandingPage = () => {
             </EventsContainer>
             
             </SectionContainer>
+            
       <SectionContainer>
         <Heading>Contact</Heading>
         <ContactContainer>
